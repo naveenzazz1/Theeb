@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--PopupVC-->
+        <scene sceneID="ltw-hL-PGH">
+            <objects>
+                <viewController storyboardIdentifier="PopupVC" modalPresentationStyle="overFullScreen" id="AkG-bn-Q5C" customClass="PopupVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R0o-89-0Oe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teL-Xb-P9r">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" name="Weem Black"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-iw-2rC">
+                                <rect key="frame" x="20.5" y="296" width="373" height="314"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="enA-rq-S7K"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VJN-iw-2rC" firstAttribute="centerY" secondItem="enA-rq-S7K" secondAttribute="centerY" id="1oR-DU-eRm"/>
+                            <constraint firstAttribute="top" secondItem="teL-Xb-P9r" secondAttribute="top" id="IMO-VU-4cg"/>
+                            <constraint firstItem="teL-Xb-P9r" firstAttribute="leading" secondItem="enA-rq-S7K" secondAttribute="leading" id="Ivj-U7-ddM"/>
+                            <constraint firstItem="VJN-iw-2rC" firstAttribute="centerX" secondItem="enA-rq-S7K" secondAttribute="centerX" id="K0C-Gv-P9U"/>
+                            <constraint firstItem="VJN-iw-2rC" firstAttribute="height" secondItem="R0o-89-0Oe" secondAttribute="height" multiplier="0.35" id="MX7-Re-xLm"/>
+                            <constraint firstItem="VJN-iw-2rC" firstAttribute="width" secondItem="R0o-89-0Oe" secondAttribute="width" multiplier="0.9" id="aU6-PI-nSJ"/>
+                            <constraint firstItem="teL-Xb-P9r" firstAttribute="bottom" secondItem="R0o-89-0Oe" secondAttribute="bottom" id="sxN-Zb-ajr"/>
+                            <constraint firstItem="enA-rq-S7K" firstAttribute="trailing" secondItem="teL-Xb-P9r" secondAttribute="trailing" id="yw6-kl-gZ4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="VJN-iw-2rC" id="GyW-aY-R4A"/>
+                        <outlet property="transparentBackgroundView" destination="teL-Xb-P9r" id="Bbc-rn-mqJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xK3-C8-fpB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="31"/>
+        </scene>
+        <!--Date PickerVC-->
+        <scene sceneID="zCe-Hw-CGV">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerVC" modalPresentationStyle="overFullScreen" id="ZI9-1g-Bic" customClass="DatePickerVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gee-Bi-WEh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujY-Za-Mfs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.16862745100000001" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aX7-V6-XqN">
+                                <rect key="frame" x="0.0" y="593.5" width="414" height="302.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to go on" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPn-re-ilH">
+                                        <rect key="frame" x="128" y="25" width="158" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" name="Weem Black"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALo-Vn-DCn">
+                                        <rect key="frame" x="359" y="22.5" width="45" height="30"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                        <state key="normal" title="DONE">
+                                            <color key="titleColor" name="Weem Blue"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButtonClicked:" destination="ZI9-1g-Bic" eventType="touchUpInside" id="P0W-sa-HUj"/>
+                                        </connections>
+                                    </button>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ih6-jL-wrD">
+                                        <rect key="frame" x="0.0" y="61.5" width="414" height="216"/>
+                                        <locale key="locale" localeIdentifier="en_150"/>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ALo-Vn-DCn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QPn-re-ilH" secondAttribute="trailing" constant="2" id="13v-5r-PdL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QPn-re-ilH" secondAttribute="trailing" constant="21" id="E8Y-oe-I3p"/>
+                                    <constraint firstItem="QPn-re-ilH" firstAttribute="centerX" secondItem="aX7-V6-XqN" secondAttribute="centerX" id="E8u-s3-RXj"/>
+                                    <constraint firstAttribute="trailing" secondItem="ALo-Vn-DCn" secondAttribute="trailing" constant="10" id="Esz-Gs-TcV"/>
+                                    <constraint firstItem="Ih6-jL-wrD" firstAttribute="top" secondItem="QPn-re-ilH" secondAttribute="bottom" constant="12" id="HBF-yY-two"/>
+                                    <constraint firstItem="Ih6-jL-wrD" firstAttribute="leading" secondItem="aX7-V6-XqN" secondAttribute="leading" id="Vl6-ag-GrD"/>
+                                    <constraint firstItem="ALo-Vn-DCn" firstAttribute="centerY" secondItem="QPn-re-ilH" secondAttribute="centerY" id="bvA-hF-q3e"/>
+                                    <constraint firstItem="QPn-re-ilH" firstAttribute="top" secondItem="aX7-V6-XqN" secondAttribute="top" constant="25" id="dxs-cb-LIw"/>
+                                    <constraint firstItem="QPn-re-ilH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aX7-V6-XqN" secondAttribute="leading" constant="21" id="e4P-kd-GO1"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ih6-jL-wrD" secondAttribute="trailing" id="rCR-46-xhT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ih6-jL-wrD" secondAttribute="bottom" constant="25" id="vl0-5S-Tgf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3G3-60-bF2"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aX7-V6-XqN" firstAttribute="leading" secondItem="3G3-60-bF2" secondAttribute="leading" id="DgO-kz-qKy"/>
+                            <constraint firstAttribute="bottom" secondItem="aX7-V6-XqN" secondAttribute="bottom" id="Rxa-Rf-j0G"/>
+                            <constraint firstItem="3G3-60-bF2" firstAttribute="trailing" secondItem="aX7-V6-XqN" secondAttribute="trailing" id="mTA-VK-Tk7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="ujY-Za-Mfs" id="jAG-DS-adg"/>
+                        <outlet property="datePicker" destination="Ih6-jL-wrD" id="Lup-9C-Thk"/>
+                        <outlet property="doneButton" destination="ALo-Vn-DCn" id="Heq-pk-TgS"/>
+                        <outlet property="titleLabel" destination="QPn-re-ilH" id="Dg0-xk-yK8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJJ-37-YzP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Weem Black">
+            <color red="0.13300000131130219" green="0.16899999976158142" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Weem Blue">
+            <color red="0.063000001013278961" green="0.024000000208616257" blue="0.62400001287460327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

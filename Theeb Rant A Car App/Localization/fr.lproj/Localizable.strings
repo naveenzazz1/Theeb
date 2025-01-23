@@ -1,0 +1,520 @@
+
+"login_button_title" = "Connexion";
+"login_forgetpassword_button_title" = "Mot de passe oublié ?";
+"sign_up_segment_title" = "S'inscrire";
+"login_email_place_holder" = "E-mail";
+"login_invalid_input_email" = "Veuillez saisir votre e-mail";
+"login_invalid_MobileNumber" = "Numéro de mobile invalide";
+"login_invalid_input_password" = "Veuillez saisir votre mot de passe";
+"login_password_place_holder" = "Mot de passe";
+"login_with_absher_button_title" = "Se connecter avec";
+"login_absher_title" = "نفاذ";
+"login_with_absher_hint_label" = "Connectez-vous avec Absher pour une expérience de paiement plus rapide";
+"login_worng_email_or_password" = "E-mail ou mot de passe invalide";
+"login_password_changed_succefully" = "Nouveau mot de passe envoyé avec succès à votre adresse e-mail";
+"login_checkConnection" = "Veuillez vérifier votre connexion Internet";
+"login_error" = "Erreur";
+"login_OK" = "OK";
+"login_alert" = "Alerte";
+
+"sign_up_button_title" = "Continuer";
+"sign_up_identity_id_iqama_passport" = "Numéro d'identification, Passeport, Iqama";
+"sign_up_full_name_placeholder" = "Nom complet";
+"sign_up_phone_number_placeholder" = "Numéro de téléphone";
+
+"Please enter a valid ID number, passport, or Iqama." = "Veuillez entrer un numéro d'identification, un passeport ou un Iqama valide.";
+"Please enter a valid BirthDate" = "Veuillez entrer une date de naissance valide.";
+
+"ID Number/ Iqama" = "Numéro d'identification/ Iqama";
+"Passport" = "Passeport";
+
+"Please enter a valid ID number, or Iqama." = "Veuillez entrer un numéro d'identification ou une Iqama valide.";
+"Please enter a valid passport" = "Veuillez entrer un passeport valide.";
+"Please enter a full name" = "Veuillez entrer un nom complet";
+"Please enter a valid email" = "Veuillez saisir une adresse e-mail valide";
+// MARQUE : - CountryPicker
+
+"country_picker_cancel_button" = "Annuler";
+"country_picker_cancelBookingn" = "Annuler la réservation";
+// MARQUE : -CreatePassword
+
+  "create_password_enter_otp_placeholder" = "Entrez le code envoyé via votre e-mail";
+"create_password_submit_button_title" = "Soumettre";
+
+// MARQUE : -forgetPassword
+
+"forget_password_title_label" = "Réinitialiser le mot de passe";
+"forget_password_otp_place_holder" = "Entrez votre email pour envoyer le code";
+"forget_password_next_button_title" = "Suivant";
+
+
+// MARQUE : - Page de destination
+
+"landing_page_my_account_item" = "Profil";
+"landing_page_my_booking_item" = "Ma location";
+"landing_page_book_weem_item" = "Explorer";
+"landing_page_need_help_item" = "Mes contrats";
+"landing_page_more_item" = "Plus";
+"maintenace_alert_title" = "En maintenance";
+"maintenace_alert_msg" = "Nos ingénieurs effectuent actuellement une maintenance planifiée sur le tableau de bord.
+Désolé pour le dérangement.";
+
+// MARQUE : - Profil
+
+"profile_title_label" = "Profil";
+"profile_btn_edit_title" = "Modifier le profil";
+"profile_item_bills" = "Factures";
+"profile_item_delete" = "Supprimer";
+"profile_item_deleteAcount" = "Supprimer votre compte";
+"profile_item_deleteAcountAlertMsg" = "Etes-vous sûr de vouloir supprimer définitivement votre compte ?";
+"profile_item_contracts" = "Contrats";
+"profile_item_objections" = "Objections";
+"profile_item_saved_cards" = "Cartes enregistrées";
+"profile_item_log_out" = "Déconnexion";
+"profile_membership_title" = "Mon abonnement";
+"profile_Edit_ID" = "ID";
+"profile_Edit_birthdate" = "Date de naissance";
+"profile_WeNeedVerify" = "Nous devons vérifier votre identité";
+"profile_updateDoc" = "Mettre à jour les documents";
+"profile_updateSuccesull" = "Profil utilisateur mis à jour avec succès";
+"profile_updateFailed" = "Échec de la mise à jour du profil utilisateur";
+"profile_updateBtn" = "Mettre à jour";
+"profile_licence" = "Licence";
+"profile_jobLicence" = "Identifiant du travail";
+"profile_save" = "Enregistrer";
+"profile_membershipBeAMember" = "Être membre";
+"profile_membershipBenifits" = "Devenez membre pour ne pas manquer nos super avantages";
+"profile_EarnPoint" = "Gagnez 500 points supplémentaires pour atteindre Golden";
+"profile_EqualsTo" = "Égal à ";
+"profile_to" = "to";
+"profile_Nationality" = "Nationalité";
+"profile_idNumber" = "Numéro d'identification";
+"profile_idVersion" = "Version de l'identifiant";
+"profile_licenseNumber" = "Numéro de licence";
+"profile_licenseExpiryDate" = "Date d'expiration de la licence";
+"profile_gender" = "Sexe";
+"profile_addresses" = "Adresses";
+"profile_address2Optional" = "Adresse 2 (Facultatif)";
+"profile_address1" = "Adresse 1";
+"profile_Male" = "Homme";
+"profile_Female" = "Femme";
+
+"create_password_text_field_place_holder" = "Confirmez votre mot de passe";
+"create_password_text_field_password_not_match_error" = "Le mot de passe ne correspond pas";
+"password_reset" = "Réinitialiser le mot de passe";
+
+"password_changed" = "Mot de passe modifié avec succès.";
+
+
+// MARQUE : - PlusVC
+
+"more_privacyPolicy" = "Politique de confidentialité";
+"more_carfleet_title" = "Theeb Flotte";
+"more_theebbranches_title" = "Succursales Theeb";
+"more_ourservices_title" = "Nos services";
+"more_ourmembership_title" = "Notre adhésion";
+"more_Ehsan_title" = "Theeb Al Kheir";
+"more_Ehsan_Description" = "Contribution efficace au service de la communauté et de sa croissance";
+"more_Ehsan_readMore" = "En savoir plus";
+"more_Ehsan_Donate" = "Faire un don";
+"more_Ehsan_Other" = "Autre";
+"more_Ehsan_DonationDomain" = "Domaine de don";
+"more_Ehsan_DonationAmount" = "Montant du don";
+"more_Ehsan_10Sr" = "10 SR";
+"more_Ehsan_50Sr" = "50 SR";
+"more_Ehsan_100Sr" = "100 SR";
+"more_helpandsupport_title" = "Aide et assistance";
+"more_aboutheeb_title" = "À propos de Theeb";
+"more_setting_title" = "Paramètres";
+"more_title" = "Plus";
+"more_Zero" = "0";
+"more_accedintServiceTitle" = "Service d'assistance en cas d'accident";
+"more_accedintServiceContent" = "Theeb rent a car a commencé en 1991, basé sur la confiance et le travail acharné, en commençant par la première succursale dans le district d'Al-Malaz dans la région de Riyad avec une flotte de près de 50 voitures et étendu pour continuer et se développer, jusqu'à ce que le succursales de Theeb Company ont atteint 52 succursales réparties dans les régions du Royaume, 15 succursales dans les aéroports internationaux et nationaux à lancer et à fabriquer dans l'un des pionniers dans le domaine de la location de voitures grâce à une flotte de véhicules dépassant 22 000 véhicules, activant plus de 84 différents types de voitures. Une qualité de service et un cadre de vie que l'on peut apporter à nos clients, mais nous sommes précis au travail et notre intérêt à servir nos clients locataires ne sera pas garanti par leurs aspirations avec une flotte de voitures variée périodiquement renouvelée et sont pris en charge et soutenus 24 heures sur 24.";
+"more_accedintServiceTitle" = "Service d'assistance en cas d'accident";
+
+"more_accedintServiceContent" = "Theeb Car Rental Company accompagne ses clients depuis la réception de la voiture dans les agences de l'entreprise jusqu'à sa livraison après la fin de la période de location. En cas d'accident, Dieu nous en préserve, l'entreprise travaille par l'intermédiaire d'un équipe spécialisée pour assurer le suivi auprès des autorités compétentes afin de dispenser le client d'effectuer certaines démarches.La société appelle ses clients à contacter immédiatement le service client immédiatement après l'accident pour intervenir rapidement et contribuer à l'accomplissement des procédures normales dans de tels un cas";
+"more_businessSectorTitle" = "Secteur d'activité";
+"more_businessSectorContent" = "La société propose à toutes les entités gouvernementales et aux entreprises du secteur privé une large gamme de solutions et de services logistiques à travers des contrats à court et à long terme, nous répondons aux besoins de chaque client en fonction de son type d'exigence de manière professionnelle et avec une grande efficacité.";
+"more_service_car_sales_title" = "Ventes de voitures";
+"more_service_car_sales_content" = "Le soin continu de Theeb Car Rental Company pour ses voitures a permis aux véhicules de profiter de leur durée de vie, de leur durabilité et de leur état de préparation. Cela a entraîné une forte demande pour l'achat de véhicules qui sont exclus du service pour la dans le but de moderniser le parc de leasing. Ces voitures sont disponibles à la vente chez Theeb Car Dealership qui propose à la vente ses voitures d'occasion soignées de 2 ans et moins";
+"more_service_cross_border_title" = "Service transfrontalier";
+"more_service_cross_border_content" = "Theeb Car Rental Company accorde une grande confiance à ses clients. Cela lui a permis de lancer des programmes qui renforcent son partenariat avec ses clients. Le service transfrontalier démontre l'étendue de cette confiance. C'est l'un des services les plus importants lancés par l'entreprise pour ses clients qui souhaitent voyager avec les voitures de l'entreprise dans de nombreux pays au-delà des frontières du Royaume. Dans un court laps de temps, le mandat de voyage est obtenu et les procédures de circulation sont facilement remplies ";
+"more_service_limo_title" = "Service de limousine";
+"more_service_limo_content" = "Le service de limousine est l'un des services fournis par Theeb Car Rental Company à ses clients, à travers diverses voitures telles que des voitures familiales et de luxe, avec des chauffeurs en uniforme parlant arabe et anglais responsables et efficaces. Des services de limousine sont également disponibles pour les clients de l'entreprise, notamment les administrations, les entreprises, les délégations de passage, les visiteurs et les touristes.";
+"more_service_raha_title" = "Service Raha";
+"more_service_raha_content" = "Services de répit - Voitures pour personnes âgées et personnes ayant des besoins spéciaux Les personnes âgées et les personnes handicapées ont besoin de véhicules avec des équipements qui les aident à se déplacer facilement et facilement. L'entreprise a travaillé pour fournir ces voitures sur sa conviction en l'importance de desservant toutes les catégories de clients et répondant à leurs différents besoins et souhaits Dans cette optique, Theeb Car Rental Company a mis à disposition gratuitement des voitures familiales équipées de fauteuils roulants pour aider les clients à se déplacer facilement. Theeb Car Rental Company est la première société de location de voitures à proposer ce service dans le Royaume.";
+"more_service_rent_car_title" = "Location de voiture";
+"more_service_rent_car_content" = "La société accorde une attention particulière à ses clients, qu'ils soient particuliers ou secteurs, car ils représentent un nombre important quant aux ventes de la société dans toutes les régions du Royaume. Dans cette optique, la société s'efforce de maintenir sa clientèle en croissance annuelle grâce à de bons prix et des offres adaptées aux particuliers, aux entités privées et gouvernementales, ainsi que par la fourniture de services d'assistance.L'entreprise traite également ses clients de manière fluide et avec une grande flexibilité, une confiance mutuelle renforcée, ce qui a permis à l'entreprise de bénéficier d'un grand nombre de clients permanents historique de clients permanents très appréciés de la Société et faisant sa fierté.";
+"more_service_one_destination_title" = "Un service de destination";
+"more_service_one_destination_content" = "Un service de destination - voyage entre les régions du Royaume Afin d'assurer la commodité de ses clients, de fournir des services qui facilitent leur déplacement et de réduire le temps et les efforts, un service de destination permet la possibilité de voyager en voiture d'une ville à une autre ville et possibilité de ne pas la restituer à la même agence de la première ville, grâce au service de recharge à bas prix.";
+"more_BranchDays" = "Du samedi au jeudi";
+"more_BranchTime" = "(8h00 à 22h00)";
+"more_BranchFriday" = "Vendredi";
+"more_GetDirections" = "Obtenir l'itinéraire";
+
+"help_support_whatsup" = "Qu'est-ce que l'application";
+"help_support_call_us" = "Appelez-nous";
+
+
+// MARQUER : - Factures
+"bills_screen_title" = "Factures";
+"bills_paid_invoice" = "Payé";
+"bills_un_paid_invoice" = "Non payé";
+
+
+//MARK : - Adhésion
+
+"Note: " = "Remarque: ";
+
+"memberShip_NumOfPoints" = "Nombre de points";
+"memberShip_Benfits" = "Avantages";
+"memberShip_Requirements" = "Exigences";
+"memberShipVc_Alfursan" = "Alfursan";
+"memberShipVc_Transfer_Theep" = " Transférez ces points à Alfursan";
+"memberShipVc_Transfeer_Point_Btn" = "Points de transfert";
+"memberShipVc_Alfursan_upgrade" = "Mise à niveau";
+"alforsan_EnterID" = "Veuillez saisir votre identifiant AlFoursan";
+"alforsan_Points" = "Veuillez saisir des points valides";
+"alforsan_yourBalance" = "Votre solde est de ";
+"alforsan_pointsWorth" = " points";
+"alforsan_transfeerPoints" = "Transférer des points vers Alforsan";
+"alforsan_NumOfPoints" = "Nombre de points que vous souhaitez transférer :";
+"alforsanVC_Alfursan_ID" = "Identifiant Alfursan :";
+"alforsanVC_AreYouSure" = "Etes-vous sûr de transférer ce point vers Alfursan ?";
+"alforsanVC_conirmTransform" = "Confirmer la transformation";
+"alforsanVC_cancel" = "Annuler";
+"alforsanVC_Confirm" = "Confirmer";
+"memberDetailsVC_silver" = "Argent";
+"memberDetailsVC_upgrade" = "Mettre à niveau";
+"memberDetailsVC_subscribe" = "S'abonner";
+"memberDetailsVC_processing" = "Votre demande d'adhésion est en cours de traitement";
+"memberDetails_learnMore" = "En savoir plus";
+"memberDetailsVC_bronz" = "Bronze";
+"memberDetailsVC_Gold" = "Or";
+"memberDetailsVC_ata" = "Ata'a";
+"memberDetailsVC_diamond" = "Diamant";
+"memberDetailsVC_automatically" = "Donné automatiquement à tous les clients après la clôture du premier contrat";
+"memberDetailsVC_BenefitsRentDiscount" = "Remise sur le loyer";
+"memberDetailsVC_oneDirectionDiscount" = "réduction dans un sens";
+"memberDetailsVC_kmFree" = "KM gratuit";
+"memberDetailsVC_extra3Hours" = "3 heures supplémentaires";
+"memberDetailsVC_extra2Hours" = "2 heures supplémentaires";
+"memberDetailsVC_extra5Hours" = "5 heures supplémentaires";
+"memberDetailsVC_gulfFees" = "Autorisation de voyage SR - Frais pour les pays du Golfe";
+"memberDetailsVC_arabicFees" = "Autorisation de voyage SR - Frais pour les pays arabes";
+"memberDetailsVC_gulfFeesFree" = "Autorisation de voyage gratuite - Frais pour les pays du Golfe";
+"memberDetailsVC_arabicFeesFree" = "Autorisation de voyage gratuite - Frais pour les pays arabes";
+"memberDetailsVC_earn05Point" = "Gagnez 0,5 point pour chaque 100 SR";
+"memberDetailsVC_earn1Point" = "Gagnez 1 point pour chaque 100 SR";
+"memberDetailsVC_payWithTheeb" = "Payer avec des points Theeb";
+"memberDetailsVC_payWithQateef" = "Payer avec des points Qitaf";
+"memberDetailsVC_payWithAlfursan" = "Payer avec des points Alfursan";
+"memberDetailsVC_bronzReqContract" = "Lors de la clôture du premier contrat sans endettement et sans adhésion";
+"memberDetailsVC_bronzReqAutomatic" = "Émission automatique à partir du système sans qu'il soit nécessaire de demander l'émission";
+"memberDetailsVC_SilvarReqContract" = "Le solde du loyer du client sera de 5 000 SAR selon les termes et conditions";
+"memberDetailsVC_GoldenReqContract" = "Le solde du loyer du client sera de 20 000 SAR selon les termes et conditions";
+"memberDetailsVC_diamondReqContract" = "Le solde du loyer du client sera de 60 000 SAR selon les termes et conditions";
+"memberDetailsVC_ataaReqContract" = "Carte de personne handicapée ou toute pièce d'identité pour cela.";
+"Your points balance:" = "Votre solde de points:";
+
+"setting_language" = "Langue";
+"setting_faceId" = "Vérification de l'identité faciale";
+"setting_hourSystem" = "Système horaire";
+"setting_mode" = "Mode";
+"Activé" = "Activé";
+"Désactivé" = "Désactivé";
+"setting_Notification" = "Paramètre de notification";
+"setting_title" = "Paramètres";
+
+// MARQUE : - Paiement
+"checkOutVC_date" = "BirthDate";
+"checkOutVC_email" = "E-mail";
+"checkOutVC_name" = "Nom complet";
+"checkOutVC_phone" = "Téléphone";
+"checkOutVC_insurance" = "Assurance";
+"checkOutVC_addOns" = "Modules complémentaires";
+"checkOutVC_freeKilos" = "Kilos gratuits à utiliser";
+"checkOutVC_canCancel" = "Vous pouvez annuler à tout moment avant la confirmation de THEEB";
+"checkOutVC_Day" = "Jour";
+"checkOutVC_commitInfo" = "Je m'engage à ce que toutes mes informations soient correctes et en acceptant cela, je suis d'accord avec theeb";
+"checkOutVC_TermsAndCond" = "Conditions générales";
+"checkOutVC_bookow" = "Réservez maintenant";
+"myrental_no_bookings_empty" = "Aucune voiture louée";
+"myrental_no_bboking_hint_label" = "Lorsque vous louez une voiture, vous verrez les détails ici";
+"myRental_luxury" = "Luxe";
+"checkOutVc_compact" = "Compact";
+"checkOut_extraFeesWillApplied" = "Des frais supplémentaires seront appliqués si le lieu de retour est en dehors de la province de l'Est";
+"checkOut_blackList" = "Désolé, la réservation ne peut pas être créée en raison de la suspension temporaire. Pour plus d'informations, veuillez contacter le service client";
+"checkOut_extraHours" = "%@ Heures supplémentaires autorisées en fonction de votre adhésion";
+"checkOut_default" = "Par défaut";
+"checkOut_goldenMember" = "Adhésion Gold";
+"checkOut_silverMember" = "Adhésion Silver";
+"checkOut_diamondMember" = "Adhésion Diamant";
+"checkOut_greenMember" = "Adhésion Ata'a";
+"checkOut_bronzMember" = "Adhésion Bronze";
+"checkOut_keepMyBooking" = "Non, conserver ma réservation";
+"checkOut_cancelMyBooking" = "Oui, annuler ma réservation";
+"checkOut_cancelFees" = "Des frais d'annulation seront appliqués le cas échéant";
+"checkOut_copiedToClip" = "Copié dans le presse-papiers";
+"successScreen_paymentSuccess" = "Paiement réussi";
+"successScreen_confrimAfterOneHour" = "Votre réservation sera confirmée dans 1 heure";
+"successScreen_backToDetails" = "Retour aux détails";
+"car_found_result" = "Voitures trouvées";
+"renalhistory_from_label" = "De";
+"renalhistory_to_label" = "À";
+"create_password_hint_label" = "Créer un mot de passe";
+
+//MARQUE : - Flotte
+"fleet_theebFleet" = "Theeb Fleet";
+"fleet_WillSendyou" = "Nous vous enverrons le lien de paiement une fois la réservation confirmée";
+"fleet_confirmavaiabilty" = "La confirmation se fera par catégorie de véhicule ou équivalent selon disponibilité";
+"fleet_freeService" = "Services gratuits";
+"fleet_chooseCar" = "Choisir une voiture";
+"fleet_price" = "Prix";
+"fleet_brand" = "Marque";
+"fleet_carType" = "Le type";
+"Year" = "Année";
+"fleet_apply" = "Appliquer";
+"fleet_includeKm" = "Inclure 225 km gratuits";
+"fleet_mayIncrease" = "Peut augmenter en fonction de votre adhésion après la connexion
+";
+"fleet_roadside" = "Assistance routière";
+"fleet_accedent" = "Aide en cas d'accident";
+
+"rental_totalFree" = "Total gratuit";
+"rental_payBefore" = "Vous devez payer avant l'heure pour ne pas annuler votre réservation";
+"rental_freeKilosToUse" = "Kilos gratuits à utiliser";
+"rental_freeKilos" = "Kilos gratuits";
+"rental_howToPay" = "Choisissez comment payer";
+"rental_paymentInfo" = "Informations de paiement";
+"rental_rentaInfo" = "Informations sur la location";
+"rental_payNow" = "Payer maintenant";
+"rental_pay_Pay" = "Payer";
+"rental_pay_Now" = "maintenant";
+"rental_paymentMethod" = "Méthode de paiement";
+"rental_cancelPolcy" = "Politique de confirmation et d'annulation";
+"rental_byConfirming" = "En confirmant cette réservation, j'accepte les conditions générales et la politique de confidentialité";
+"rental_Booking" = "Réservation";
+"rental_BookingCancell" = "Réservation annulée avec succès";
+"rental_all" = "Tous";
+"rental_invoice" = "Non payé";
+"rental_carRental" = "Location de voiture";
+"rental_vatValue" = "Vat";
+"rental_totalValue" = "Total";
+"renta_Delivery" = "Frais de livraison";
+"rental_memberShipDeiscount" = "Réduction d'adhésion";
+"rental_memberShipTitle" = "Adhésion";
+"renta_extraFees" = "Frais supplémentaires";
+"rental_BookingstatusCanceled" = "La réservation est annulée";
+"error_already_registered" = "Vous êtes déjà inscrit";
+"error_Occured_msg" = "Une erreur s'est produite";
+"details_paid_amount_hint_label" = "Montant payé";
+"rental_BookingstatusConfirmed" = "La réservation est confirmée";
+"rental_Bookingstatuswaiting" = "En attente de confirmation";
+"rental_caravAilable" = "Voiture disponible sur";
+"rental_carReturnOn" = "Retour de voiture activé";
+"rental_carSchadulaed" = "La restitution de la voiture est prévue le ";
+"rental_youHaveCar" = "Vous avez la voiture";
+"rental_carWithYou" = "Voiture avec vous";
+"rental_viewDetails" = "Afficher les détails";
+"rental_carReturned" = "La voiture a été restituée";
+"rental_carDetails" = "Détails de la voiture";
+"rental_pointsAdded" = "150 points seront ajoutés aux points Theeb";
+"rental_PayForFull" = "Payer pour l'intégralité";
+"rental_payForFirst" = "Payez le premier jour, le reste plus tard";
+"renta_ChildSeat" = "Sièges auto pour enfants";
+"rental_pickUpOn" = "Récupérer le";
+"rental_resturnOn" = "Retour le";
+"renta_areYouSure" = "Etes-vous sûr de vouloir annuler ?";
+"addtional_insurance_recommended_label" = "Recommandé Prenez-le pour votre sécurité";
+"standard_insurance" = "Norme";
+//MARQUE : - Emplacement de la carte
+
+"mapLocation_chooseLocation" = "Sélectionner un emplacement";
+"mapLocation_selectPickLocation" = "Sélectionnez le lieu de prise en charge";
+"mapLocation_selectTReturnLocation" = "Sélectionnez l'emplacement de retour";
+"mapLocation_pickUp" = "Ramasser";
+"mapLocation_selectDates" = "Confirmer site";
+"mapLocation_pickUpDate" = "Date de retrait";
+"mapLocation_returnDate" = "Date de retour";
+"mapLocation_pickUpTime" = "Heure de prise en charge";
+"mapLocation_returnTime" = "Heure de retour";
+"mapLocation_youCanReturn" = "Vous pouvez restituer la voiture avant l'heure que vous avez sélectionnée";
+"mapLocation_pickUpAndReturnTime" = "Heure de prise et de retour";
+"mapLocation_selectPickTime" = "Heure de ramassage";
+"mapLocation_selectReturnTime" = "Heure de retour";
+"mapLocation_serechForCar" = "Rechercher une voiture";
+"mapLocation_differentCity" = "Restitution de la voiture dans une autre agence";
+"mapLocation_pickShouldBe" = "L'heure de prise en charge devrait être d'au moins %d heures à partir de maintenant.";
+"mapLocation_opening" = "Heure d'ouverture à partir de";
+//"mapLocation_ShouldBe" = "L'heure de prise en charge devrait être d'au moins 4 heures à partir de maintenant.";
+"mapLocation_ShouldBe" = "Le temps de retour doit être d'au moins %d heures à partir de maintenant, basé sur l'heure d'Arabie saoudite.";
+
+//"mapLocation_ReturnShouldBe" = "L'heure de retour devrait être au moins dans 4 heures.";
+"mapLocation_ReturnShouldBe" = "Le temps de retour doit être d'au moins %d heures à partir de maintenant, basé sur l'heure d'Arabie saoudite.";
+
+"mapLocation_ReturnAnyWhere" = "Restituez votre voiture où vous voulez";
+"mapLocation_ReturnYourCars" = "Vos voitures";
+"mapLocation_TrackYourBookink" = "Où vous suivez votre réservation en temps réel";
+"mapLocation_confirmDate" = "Confirmer la date";
+"mapLocation_confirmTime" = "Confirmer l'heure";
+"mapLocation_workingHour" = "Heures de travail :";
+"mapLocation_Fax" = "Fax";
+
+"offers_title_label" = "Offres";
+"clear_all_filters_btn_title" = "Effacer tous les filtres";
+
+"date_picker_done_title" = "Choisir l'heure";
+"date_picker_done_titlee" = "Choisir une date";
+"date_picker_cancel_title" = "Retour";
+"datePicker_chooseDate" = "Sélectionner une date";
+"bills_all_fine_label" = "Tout va bien";
+"bills_fine_hint_label" = "pas de factures";
+"car_details_recommended_imsurance" = "Recommandé";
+"car_detials_select_car" = "sélection de voiture";
+"faceid_enble_btn" = "Activer";
+"faceid_skip_btn" = "Passer";
+"cardetails_internal_authrization" = "Autorisation interne";
+"faceid_skip_title" = "Activer la vérification";
+"faceid_skip_hint" = "Activation de la vérification pour un accès rapide à votre compte, la prochaine fois, et pour plus de sécurité.";
+//MARQUE : - Aide et assistance
+"please_fill_data" = "veuillez sélectionner le lieu et l'heure de prise en charge et de restitution";
+"help_suppot_nedd_help" = "Besoin de notre aide ?";
+"help_support_contact_with_team" = "Contactez notre équipe";
+
+// MARQUE : - Écran de réussite
+
+"success_screen_your_booking_created_succefully" = "Votre réservation a été créée avec succès";
+
+//MARQUE : - Flotte
+
+"fleet_22km_free" = "225 km gratuits";
+"fleet_seats" = "Sièges";
+"km_hint" = "Km";
+"min_hint" = "min";
+"fleet_vat_not_included" = "TVA NON INCLUSE";
+"fleet_vat_included" = "TVA INCLUSE";
+"fleet_DriverInfo" = "Informations sur le conducteur";
+"car_detils_add_ons" = "Modules complémentaires";
+// MARQUE : - À propos de VC
+
+"about_content_for_about_theeb" = "Theeb rent a car a commencé en 1991, basé sur la confiance et le travail acharné, en commençant par la première succursale dans le district d'Al-Malaz dans la région de Riyad avec une flotte de près de 50 voitures et étendu pour continuer et se développer, jusqu'à ce que le succursales de Theeb Company ont atteint 51 succursales réparties dans les régions du Royaume, 15 succursales dans les aéroports internationaux et nationaux à lancer et à fabriquer dans l'un des pionniers dans le domaine de la location de voitures grâce à une flotte de véhicules dépassant 19 000 véhicules, activant plus de 84 différents types de voitures. Une qualité de service et un cadre de vie que l'on peut apporter à nos clients, mais nous sommes précis au travail et notre intérêt à servir nos clients locataires ne sera pas garanti par leurs aspirations avec une flotte de voitures variée périodiquement renouvelée et sont pris en charge et soutenus 24 heures sur 24.";
+
+
+"about_title" = "Service d'assistance en cas d'accident";
+
+//MARQUE : - Nos services
+
+"ourservices_accident_assitance_services" = "Service d'assistance en cas d'accident";
+"ourservices_bussiness_sector" = "Secteur d'activité";
+"ourservices_car_sales" = "Ventes de voitures";
+"ourservices_cross_border_service" = "Service transfrontalier";
+"ourservices_limo_service" = "Service de limousine";
+"ourservice_onedestination_service" = "Service à destination unique";
+"ourservice_raha_service" = "Service Raha";
+"ourservice_rent_car" = "Location de voiture";
+
+"Pay the full amount for %@ days" = "Payez le montant total pour %@ jours";
+"Pay the full amount for " = "Payez le montant total";
+"  %@ SAR" = "  %@ SAR";
+"Pay for only one day" = "Payez pour un seul jour";
+"our_service_theeb_services" = "Theeb Services";
+"fleet_insurance" = "Assurance";
+"payment_payment_details" = "Paiement";
+"payment_payment_detailـchoose_option" = "Choisir le mode de paiement";
+"payment_applePay" = "Apple paie";
+"payment_total" = "Total";
+"payment_Currenttotal" = "Total actuel";
+"payment_pay_with_card" = "PAYER AVEC CARTE";
+"payment_or_label" = "OU";
+"payment_payFullAmount" = "Payer le montant total";
+"payment_creditcard" = "Carte de crédit";
+"payment_payPartialy" = "Payer partiellement";
+"payment_laterPay" = "Paiement ultérieur";
+"payment_Declined" = "Cher client, votre paiement a été refusé, veuillez contacter votre banque.";
+"payment_ThankYou" = "Merci et nous avons reversé une partie de votre contrat aux orphelins";
+"payment_HowMuch" = "Combien voulez-vous payer maintenant ?";
+"per_month_label" = "/Mois";
+"per_day_label" = "/Jour";
+"sar" = "SAR";
+"car_details_title" = "Détails de la voiture";
+"car_details_seats" = " Sièges";
+"car_details_doors" = " Portes";
+"car_details_bags" = " Sacs";
+"car_details_gps_avaliable" = " GPS disponible";
+"car_details_price_hint" = "La TVA, l'assurance et les suppléments ne sont pas inclus";
+"car_details_gps_not_avaliable" = "GPS non disponible";
+"paymeny_vat" = "(TVA incluse)";
+"payment_more_than_current" = "le montant à payer doit être inférieur à la valeur totale";
+
+"checkout_upgrade_btn_title" = "Mettre à niveau";
+"checkout_pickup_on" = "Retrait le";
+"checkout_Return_on" = "Retour le";
+"checkout_vc_title" = "Vérifier la réservation";
+"checkout_clear_filter" = "Effacer le filtre";
+"checkout_brand_filter_title" = "Marque";
+"checkout_clear_filter" = "Effacer le filtre";
+"checkout_cartype_filter_title" = "Type de voiture";
+"checkout_price_filter_title" = "Prix";
+"checkout_apply_btn_title" = "Appliquer";
+"checkout_at" = "at";
+"chekout_plus_more" = "+3 de plus";
+"chekout_total_free" = "Total gratuit";
+"checkout_editbtn_title" = "Modifier";
+"car_details_remove_btn" = "Supprimer";
+"fleet_from_zero_to_90" = "De 0 à 90 SAR";
+"fleet_from_91_to_200" = "De 91 à 200 SAR";
+"fleet_more_than_200" = "200 SAR ou plus";
+"fleet_from_zero_to_250" = "De 0 à 250 SAR";
+"fleet_from_251_to_450" = "De 251 à 450 SAR";
+"fleet_from_451_to_700" = "De 451 à 700 SAR";
+"fleet_from_701_to_1000" = "De 701 à 1000 SAR";
+"fleet_from_1001_to_2000" = "De 1001 à 2000 SAR";
+"fleet_from_2000_to_more" = "2001 SAR ou plus";
+"fleet_bookingNumber" = "Numéro de réservation";
+"fleet_contractNumber" = "Numéro de contrat";
+"suecess_goto_details" = "Aller aux détails";
+"success_booking_number_is" = "Votre numéro de réservation est";
+"login_with_absher_btn_title" = "Connexion avec";
+"logout_Err_msg" = "Voulez-vous vraiment vous déconnecter de votre compte ?";
+"logout" = "Se déconnecter";
+"guest_login" = "Rejoignez-nous pour réserver plus rapidement";
+"force_update_title" = "Nouvelle version disponible !";
+"force_update_message" = "Vous devez mettre à jour vers la dernière version pour continuer";
+"normal_update_title" = "Nouvelle version disponible !";
+"normal_update_message" = "Vous devez mettre à jour pour profiter des dernières fonctionnalités et améliorations";
+"not_now" = "Pas maintenant";
+"exit_app" = "Quitter l'application";
+"alert_language" = "Voulez-vous vraiment changer de langue ?";
+"language_Yes" = "Oui";
+"language_No" = "Non";
+"alert_success" = "Succès";
+"termsAndCondidtions_Arabic" = "لا نقدّمُ من جهتنا كما لا يقدّم أيّ طرف ثالث أيّ ضمانة بدقةِ وتماميّة أو ملاءمة المعلومات والموادّ المذكورة في هذا الموقع الإلكترونيّ لأيِّ غرض معيّن. إنكّم تقرّون بأنّ هذه المعلومات أو الموادّ قد تتضمّن أخطاءً أو مغالطاتٍ، ونحن نرفعُ بدورنا مسؤوليّتنا صراحة عن أيِّ مغالطات أو أخطاء واردة على هذا الموقع الإلكترونيّ إلى الحدود المطلقة التي يسمحُ بها القانون.
+
+يقعُ استخدامكم لأيِّ معلومات أو مواد واردة على هذا الموقع الإلكترونيّ على مسؤوليّتكم الخاصّة، ونحن لا نتحمّل أيّ مسؤوليّة عن المعلومات والمواد المذكورة. تكمنُ مسؤوليّتكم الخاصّة في التأكّدِ من أنّ أيّ منتجاتٍ أو خدمات أو معلومات متوفرة على هذا الموقع الإلكترونيّ تستوفي متطلبّاتكم الخاصّة.
+
+يتضمّن هذا الموقع الإلكترونيّ مواداً مملوكة من قبلنا ومرخّصة لنا. وتضمّ هذه الموادّ، على سبيل المثال لا الحصر، التصاميم والرسوم والنماذج المطبعية. ويُحظّرُ إعادة نسخ ونشر هذه الموادّ باستثناء بما يتوافق مع إخطار حقوق النشر التي تشكّل جزءاً من هذه البنود والشروط.
+
+يتمّ الإقرار بكافة العلامات التجاريّة الواردة على هذا الموقع الإلكتروني بحيث لا تكون ملكاً للمشغّل أو تكون مرخّصة له.
+
+ينشأ عن الاستخدام غير المرخّص له لهذا الموقع الإلكتروني مطالبة بالتعويض عن الأضرار ويعد فعلاً إجراميّاً.
+
+يمكن أن يضمّ هذا الموقع الإلكترونيّ، من حين إلى آخر، روابط متعلّقة بمواقع إلكترونيّة أخرى. تتوفرُ هذه الروابط لتأمين معلوماتٍ إضافيّة لكم، ولا تدلّ بالتالي على أنّنا نصادق على مضمون المواقع الأخرى. إنّنا لا نتحمّل أيّ مسؤوليّة عن مضمون المواقع الإلكترونيّة الأخرى المتصلة بالروابط.
+
+لا يحقّ لكم إنشاء رابط لهذا الموقع الإلكترونيّ من أيّ موقع إلكتروني آخر أو مستند آخر من دون الحصول على موافقة شركة ذيب لتأجير السيارات الخطيّة المسبقة.
+
+يخضعُ استخدامكم لهذا الموقع الإلكترونيّ وأيّ نزاع ينشأ عن هذا الاستخدام لقوانين المملكة العربيّة السعوديّة";
+
+
+// missing
+
+"Amount can't be 0" = "Le montant ne peut pas être de 0";
+"new_privacy_policy" = "Privacy Policy";
+"new_privacy_policy_text" = "▪︎ Data required to perform business transactions like Name, DOB, License No, Expiry date etc are only collected from the individual.\n
+▪︎ Data collected from individual are solely used to avoid data entry multiple times and to give better services to the customer.\n
+▪︎ Personal data collected from the individuals are kept under strict safeguard.\n
+▪︎ No part of data is shared or have access by any external entities except concerned regulatory authorities related to business / service industry.\n
+▪︎ No financial data is collected or stored by Theeb Rent A Car Co.\n
+▪︎ Credit / Debit card no taken for references are stored in mask format.\n
+▪︎ All the data collected from individuals are displayed under user profile for registered users.";
+

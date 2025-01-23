@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahij_TheSansArabic-Bold.ttf">
+            <string>BahijTheSansArabic-Bold</string>
+        </array>
+        <array key="Bahij_TheSansArabic-SemiLight.ttf">
+            <string>BahijTheSansArabic-SemiLight</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--MoreVC-->
+        <scene sceneID="fCE-3v-cuS">
+            <objects>
+                <viewController storyboardIdentifier="MoreVC" id="gpT-Ew-fLG" customClass="MoreVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AwF-Fk-jXY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSQ-iL-ylb">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZP1-48-Eeu">
+                                        <rect key="frame" x="0.0" y="20" width="414" height="794"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" rowHeight="43" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="wpI-uo-mnr">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="794"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="43" id="kwr-o8-KvQ">
+                                                        <rect key="frame" x="0.0" y="50" width="414" height="43"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kwr-o8-KvQ" id="1aj-vf-5YN">
+                                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="43"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </tableViewCellContentView>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                            </tableView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ZP1-48-Eeu" secondAttribute="trailing" id="4YN-jZ-WIc"/>
+                                    <constraint firstItem="ZP1-48-Eeu" firstAttribute="top" secondItem="kSQ-iL-ylb" secondAttribute="top" constant="20" id="BnY-YB-xQ0"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZP1-48-Eeu" secondAttribute="bottom" id="IBo-lh-DFC"/>
+                                    <constraint firstItem="ZP1-48-Eeu" firstAttribute="leading" secondItem="kSQ-iL-ylb" secondAttribute="leading" id="ezF-YB-BmY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uDw-lJ-j52"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kSQ-iL-ylb" firstAttribute="leading" secondItem="uDw-lJ-j52" secondAttribute="leading" id="Yef-gE-yDd"/>
+                            <constraint firstItem="kSQ-iL-ylb" firstAttribute="top" secondItem="uDw-lJ-j52" secondAttribute="top" id="fri-s1-VhL"/>
+                            <constraint firstItem="uDw-lJ-j52" firstAttribute="trailing" secondItem="kSQ-iL-ylb" secondAttribute="trailing" id="qwL-lM-uwX"/>
+                            <constraint firstItem="uDw-lJ-j52" firstAttribute="bottom" secondItem="kSQ-iL-ylb" secondAttribute="bottom" id="tum-ef-Zf0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="wpI-uo-mnr" id="GVO-G6-Dw9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nc1-As-Jo2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-500.00000000000006" y="47.544642857142854"/>
+        </scene>
+        <!--Car TypesVC-->
+        <scene sceneID="9gP-1Z-u26">
+            <objects>
+                <viewController storyboardIdentifier="CarTypesVC" id="FDE-6g-Vik" customClass="CarTypesVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2p8-pz-Gcc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ojX-H8-hAm">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="chN-35-8ac">
+                                    <size key="itemSize" width="177" height="212"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarTypesCollectionViewCell" id="mAc-JM-LO9" customClass="CarTypesCollectionViewCell" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="YdV-zl-Pz2">
+                                            <rect key="frame" x="0.0" y="0.0" width="177" height="212"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XR5-na-dr9">
+                                                    <rect key="frame" x="10" y="10" width="157" height="192"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cPh-Rt-8aE">
+                                                            <rect key="frame" x="10" y="10" width="137" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="80" id="lnO-1X-CEw"/>
+                                                                <constraint firstAttribute="height" constant="60" id="u4q-kd-zAe"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isCoverable" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cpI-dG-JxF">
+                                                            <rect key="frame" x="10" y="75" width="137" height="116"/>
+                                                            <fontDescription key="fontDescription" name="BahijTheSansArabic-Bold" family="Bahij TheSansArabic" pointSize="17"/>
+                                                            <color key="textColor" name="TheebPrimaryColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isCoverable" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="cPh-Rt-8aE" firstAttribute="top" secondItem="XR5-na-dr9" secondAttribute="top" constant="10" id="Bsg-VA-Iio"/>
+                                                        <constraint firstItem="cpI-dG-JxF" firstAttribute="centerX" secondItem="XR5-na-dr9" secondAttribute="centerX" id="WFJ-Lo-WsN"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cpI-dG-JxF" secondAttribute="trailing" id="cDU-13-j1P"/>
+                                                        <constraint firstItem="cpI-dG-JxF" firstAttribute="top" secondItem="cPh-Rt-8aE" secondAttribute="bottom" constant="5" id="hzY-y3-QuQ"/>
+                                                        <constraint firstItem="cPh-Rt-8aE" firstAttribute="leading" secondItem="XR5-na-dr9" secondAttribute="leading" constant="10" id="kuy-Jo-6E7"/>
+                                                        <constraint firstItem="cpI-dG-JxF" firstAttribute="leading" secondItem="XR5-na-dr9" secondAttribute="leading" constant="10" id="pv7-aN-SA8"/>
+                                                        <constraint firstAttribute="trailing" secondItem="cPh-Rt-8aE" secondAttribute="trailing" constant="10" id="vl0-kr-Jbh"/>
+                                                        <constraint firstAttribute="bottom" secondItem="cpI-dG-JxF" secondAttribute="bottom" constant="1" id="z94-ze-EaO"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="Weem Mid Gray"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XR5-na-dr9" firstAttribute="top" secondItem="YdV-zl-Pz2" secondAttribute="top" constant="10" id="2a0-vd-kEg"/>
+                                                <constraint firstAttribute="bottom" secondItem="XR5-na-dr9" secondAttribute="bottom" constant="10" id="98E-zS-AMY"/>
+                                                <constraint firstItem="XR5-na-dr9" firstAttribute="leading" secondItem="YdV-zl-Pz2" secondAttribute="leading" constant="10" id="N6B-NF-joH"/>
+                                                <constraint firstAttribute="trailing" secondItem="XR5-na-dr9" secondAttribute="trailing" constant="10" id="gcI-Tt-ssw"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="177" height="212"/>
+                                        <connections>
+                                            <outlet property="cartTypeName" destination="cpI-dG-JxF" id="RXV-fa-55b"/>
+                                            <outlet property="imgViewCar" destination="cPh-Rt-8aE" id="ZgA-Nj-RoR"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tUM-jE-PaL"/>
+                        <color key="backgroundColor" name="Weem Gray Navigation Bar"/>
+                        <constraints>
+                            <constraint firstItem="tUM-jE-PaL" firstAttribute="bottom" secondItem="ojX-H8-hAm" secondAttribute="bottom" id="HKR-06-Cyf"/>
+                            <constraint firstItem="ojX-H8-hAm" firstAttribute="top" secondItem="tUM-jE-PaL" secondAttribute="top" id="eXV-oc-WGa"/>
+                            <constraint firstItem="ojX-H8-hAm" firstAttribute="leading" secondItem="tUM-jE-PaL" secondAttribute="leading" id="owb-Ac-c5T"/>
+                            <constraint firstItem="tUM-jE-PaL" firstAttribute="trailing" secondItem="ojX-H8-hAm" secondAttribute="trailing" id="xdd-A5-tE7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fleetCollectionView" destination="ojX-H8-hAm" id="QJm-Nv-bLq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8K-8b-u52" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="48"/>
+        </scene>
+        <!--Our ServicesVC-->
+        <scene sceneID="nya-bh-uEE">
+            <objects>
+                <viewController storyboardIdentifier="OurServicesVC" id="Phv-cZ-1rN" customClass="OurServicesVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1DO-wl-JaC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KUm-WT-6Da">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SR2-e5-TpP">
+                                    <size key="itemSize" width="198" height="248"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarTypesCollectionViewCell" id="9Ng-Ii-nlq" customClass="CarTypesCollectionViewCell" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="248"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="WwO-TS-vV1">
+                                            <rect key="frame" x="0.0" y="0.0" width="198" height="248"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gw8-SH-2Wc">
+                                                    <rect key="frame" x="10" y="10" width="178" height="228"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Service1" translatesAutoresizingMaskIntoConstraints="NO" id="Hgv-xR-4qC">
+                                                            <rect key="frame" x="0.0" y="0.0" width="178" height="181"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S0-xU-rQ1">
+                                                            <rect key="frame" x="10" y="183" width="158" height="41"/>
+                                                            <fontDescription key="fontDescription" name="BahijTheSansArabic-Bold" family="Bahij TheSansArabic" pointSize="25"/>
+                                                            <color key="textColor" name="Weem Black"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="1S0-xU-rQ1" firstAttribute="top" secondItem="Hgv-xR-4qC" secondAttribute="bottom" constant="2" id="2yp-vU-SWx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Hgv-xR-4qC" secondAttribute="trailing" id="61W-Hk-YFT"/>
+                                                        <constraint firstItem="1S0-xU-rQ1" firstAttribute="centerX" secondItem="Gw8-SH-2Wc" secondAttribute="centerX" id="K0G-K4-AaX"/>
+                                                        <constraint firstItem="Hgv-xR-4qC" firstAttribute="leading" secondItem="Gw8-SH-2Wc" secondAttribute="leading" id="LaD-CF-dJD"/>
+                                                        <constraint firstItem="1S0-xU-rQ1" firstAttribute="height" secondItem="Gw8-SH-2Wc" secondAttribute="height" multiplier="0.18" id="NQh-SK-Mhf"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1S0-xU-rQ1" secondAttribute="trailing" id="rsB-TJ-d0e"/>
+                                                        <constraint firstItem="Hgv-xR-4qC" firstAttribute="top" secondItem="Gw8-SH-2Wc" secondAttribute="top" id="t2m-Tc-PHe"/>
+                                                        <constraint firstAttribute="bottom" secondItem="1S0-xU-rQ1" secondAttribute="bottom" constant="4" id="tuZ-QZ-4zO"/>
+                                                        <constraint firstItem="1S0-xU-rQ1" firstAttribute="leading" secondItem="Gw8-SH-2Wc" secondAttribute="leading" constant="10" id="xaf-NC-dDk"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="Weem Mid Gray"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Gw8-SH-2Wc" secondAttribute="trailing" constant="10" id="ROz-bs-6vI"/>
+                                                <constraint firstItem="Gw8-SH-2Wc" firstAttribute="leading" secondItem="WwO-TS-vV1" secondAttribute="leading" constant="10" id="dQQ-Bj-o2d"/>
+                                                <constraint firstAttribute="bottom" secondItem="Gw8-SH-2Wc" secondAttribute="bottom" constant="10" id="isB-ed-fgV"/>
+                                                <constraint firstItem="Gw8-SH-2Wc" firstAttribute="top" secondItem="WwO-TS-vV1" secondAttribute="top" constant="10" id="wic-k1-4YH"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="198" height="248"/>
+                                        <connections>
+                                            <outlet property="cartTypeName" destination="1S0-xU-rQ1" id="q8j-Dl-a9J"/>
+                                            <outlet property="serviceImage" destination="Hgv-xR-4qC" id="A6w-b9-4lU"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zvc-7p-J9y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KUm-WT-6Da" firstAttribute="bottom" secondItem="zvc-7p-J9y" secondAttribute="bottom" id="CDi-JA-kNW"/>
+                            <constraint firstItem="zvc-7p-J9y" firstAttribute="trailing" secondItem="KUm-WT-6Da" secondAttribute="trailing" id="Umh-ry-9pp"/>
+                            <constraint firstItem="KUm-WT-6Da" firstAttribute="leading" secondItem="zvc-7p-J9y" secondAttribute="leading" id="VsT-EP-SYF"/>
+                            <constraint firstItem="KUm-WT-6Da" firstAttribute="top" secondItem="zvc-7p-J9y" secondAttribute="top" id="zcM-B4-5cL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="servicesCollectionView" destination="KUm-WT-6Da" id="9Kc-jO-LIb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ygm-ep-ABJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818.840579710145" y="47.544642857142854"/>
+        </scene>
+        <!--Help SupportVC-->
+        <scene sceneID="ZAH-bs-WV9">
+            <objects>
+                <viewController storyboardIdentifier="HelpSupportVC" id="O3U-mZ-3Q6" customClass="HelpSupportVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wl0-1H-7hR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L84-FZ-R3C">
+                                <rect key="frame" x="0.0" y="48" width="414" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need our help?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ima-sw-xc2">
+                                        <rect key="frame" x="30" y="20" width="130" height="33"/>
+                                        <fontDescription key="fontDescription" name="BahijTheSansArabic-Bold" family="Bahij TheSansArabic" pointSize="20"/>
+                                        <color key="textColor" name="TheebPrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact with our team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SE-jC-gXY">
+                                        <rect key="frame" x="30" y="63" width="165.5" height="27"/>
+                                        <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="17"/>
+                                        <color key="textColor" name="TheebDarkGray"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ima-sw-xc2" firstAttribute="top" secondItem="L84-FZ-R3C" secondAttribute="top" constant="20" id="2fg-9w-SHL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4SE-jC-gXY" secondAttribute="trailing" constant="10" id="IbL-jM-GKL"/>
+                                    <constraint firstItem="4SE-jC-gXY" firstAttribute="leading" secondItem="Ima-sw-xc2" secondAttribute="leading" id="RCf-yA-MdN"/>
+                                    <constraint firstItem="Ima-sw-xc2" firstAttribute="leading" secondItem="L84-FZ-R3C" secondAttribute="leading" constant="30" id="kiv-rR-geu"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ima-sw-xc2" secondAttribute="trailing" constant="10" id="luN-VO-HKz"/>
+                                    <constraint firstAttribute="height" constant="100" id="qL8-CO-1nk"/>
+                                    <constraint firstItem="4SE-jC-gXY" firstAttribute="top" secondItem="Ima-sw-xc2" secondAttribute="bottom" constant="10" id="qsI-RF-Xbc"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ca2-U2-5gZ">
+                                <rect key="frame" x="0.0" y="148" width="414" height="714"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="43" id="anu-Ex-86w">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="43"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="anu-Ex-86w" id="hr1-7J-iSQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8x7-FY-EC0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ca2-U2-5gZ" firstAttribute="top" secondItem="L84-FZ-R3C" secondAttribute="bottom" id="22k-aX-3Xi"/>
+                            <constraint firstItem="ca2-U2-5gZ" firstAttribute="bottom" secondItem="8x7-FY-EC0" secondAttribute="bottom" id="7bg-fo-ADR"/>
+                            <constraint firstItem="L84-FZ-R3C" firstAttribute="top" secondItem="8x7-FY-EC0" secondAttribute="top" id="8Wu-Wy-LLN"/>
+                            <constraint firstItem="ca2-U2-5gZ" firstAttribute="leading" secondItem="8x7-FY-EC0" secondAttribute="leading" id="CyP-RP-b8C"/>
+                            <constraint firstItem="ca2-U2-5gZ" firstAttribute="trailing" secondItem="8x7-FY-EC0" secondAttribute="trailing" id="TJ6-ph-QGy"/>
+                            <constraint firstItem="L84-FZ-R3C" firstAttribute="trailing" secondItem="8x7-FY-EC0" secondAttribute="trailing" id="UuO-hL-BqN"/>
+                            <constraint firstItem="L84-FZ-R3C" firstAttribute="leading" secondItem="8x7-FY-EC0" secondAttribute="leading" id="ewc-4U-6it"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contactWithourTeamLabel" destination="4SE-jC-gXY" id="xJY-nU-var"/>
+                        <outlet property="needourHelpLabel" destination="Ima-sw-xc2" id="ia9-GM-Wp8"/>
+                        <outlet property="tableView" destination="ca2-U2-5gZ" id="oWD-gc-hLg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7K-q0-Dyp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2815.9420289855075" y="47.544642857142854"/>
+        </scene>
+        <!--SettingVC-->
+        <scene sceneID="J3Q-qZ-iZl">
+            <objects>
+                <viewController storyboardIdentifier="SettingVC" id="h3D-wO-rni" customClass="SettingVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Foe-dh-b7g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bQT-uB-1dz">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V47-9H-o0b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bQT-uB-1dz" firstAttribute="top" secondItem="V47-9H-o0b" secondAttribute="top" id="12e-Ia-YfJ"/>
+                            <constraint firstItem="bQT-uB-1dz" firstAttribute="leading" secondItem="V47-9H-o0b" secondAttribute="leading" id="4MG-0h-Lay"/>
+                            <constraint firstItem="V47-9H-o0b" firstAttribute="bottom" secondItem="bQT-uB-1dz" secondAttribute="bottom" id="TYY-7I-X5x"/>
+                            <constraint firstItem="V47-9H-o0b" firstAttribute="trailing" secondItem="bQT-uB-1dz" secondAttribute="trailing" id="wOs-Zo-LNE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewSetting" destination="bQT-uB-1dz" id="RsZ-7i-H5M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="th1-cO-ugB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3673" y="123"/>
+        </scene>
+        <!--Language SwitchVC-->
+        <scene sceneID="YT9-f3-wMS">
+            <objects>
+                <viewController storyboardIdentifier="LanguageSwitchVC" id="2Nk-SE-cG6" customClass="LanguageSwitchVC" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c0T-Ux-bA1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="F36-Vr-Pvs" customClass="TanibleView" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QeZ-gd-osR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QeZ-gd-osR" firstAttribute="trailing" secondItem="F36-Vr-Pvs" secondAttribute="trailing" id="Gne-hI-kSM"/>
+                            <constraint firstItem="QeZ-gd-osR" firstAttribute="bottom" secondItem="F36-Vr-Pvs" secondAttribute="bottom" id="KJs-Ow-rwN"/>
+                            <constraint firstItem="F36-Vr-Pvs" firstAttribute="top" secondItem="QeZ-gd-osR" secondAttribute="top" id="KyI-DM-4Nz"/>
+                            <constraint firstItem="F36-Vr-Pvs" firstAttribute="leading" secondItem="QeZ-gd-osR" secondAttribute="leading" id="UE0-u1-MOv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="languageTableView" destination="F36-Vr-Pvs" id="h9T-nN-yy4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HD7-Dq-uIW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4558" y="60"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Service1" width="44" height="27"/>
+        <namedColor name="TheebDarkGray">
+            <color red="0.26666666666666666" green="0.29019607843137257" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TheebPrimaryColor">
+            <color red="0.058823529411764705" green="0.41568627450980394" blue="0.64313725490196083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Weem Black">
+            <color red="0.13300000131130219" green="0.16899999976158142" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Weem Gray Navigation Bar">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Weem Mid Gray">
+            <color red="0.89399999380111694" green="0.91399997472763062" blue="0.94900000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

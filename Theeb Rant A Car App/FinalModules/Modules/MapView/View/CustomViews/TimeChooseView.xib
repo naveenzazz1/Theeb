@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahij_TheSansArabic-Plain.ttf">
+            <string>BahijTheSansArabic-Plain</string>
+        </array>
+        <array key="Bahij_TheSansArabic-SemiBold.ttf">
+            <string>BahijTheSansArabic-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeChooseView" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+            <connections>
+                <outlet property="btnConfirm" destination="psJ-xc-Z2I" id="DBR-ie-nXr"/>
+                <outlet property="lblDays" destination="RcP-gx-mmN" id="DLb-lK-WTx"/>
+                <outlet property="lblInstruction" destination="jmv-2s-HWI" id="1L6-tP-XsJ"/>
+                <outlet property="timePicker" destination="UoK-My-3EK" id="7cw-Ra-Yzd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEI-6L-Alk" customClass="RoundedShadowView" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+                    <rect key="frame" x="4" y="52" width="406" height="840"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psJ-xc-Z2I">
+                            <rect key="frame" x="16" y="546" width="374" height="84"/>
+                            <color key="backgroundColor" red="0.1843137443" green="0.41176474089999998" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="24"/>
+                            <color key="tintColor" name="TheebPrimaryColor"/>
+                            <state key="normal" title="Confirm Date">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Pick up Time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="RcP-gx-mmN">
+                            <rect key="frame" x="16" y="36" width="180" height="42"/>
+                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="22"/>
+                            <color key="textColor" name="TheebPrimaryColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick up time should be after 4 hours from now at least. Opening time from from 8:00 AM to 10:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmv-2s-HWI">
+                            <rect key="frame" x="16" y="90" width="374" height="84"/>
+                            <fontDescription key="fontDescription" name="BahijTheSansArabic-Plain" family="Bahij TheSansArabic" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="5" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="UoK-My-3EK">
+                            <rect key="frame" x="4" y="186" width="398" height="336"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" name="AccentColor"/>
+                            <date key="minimumDate" timeIntervalSinceReferenceDate="-978285600">
+                                <!--1970-01-01 06:00:00 +0000-->
+                            </date>
+                            <date key="maximumDate" timeIntervalSinceReferenceDate="1167595200">
+                                <!--2037-12-31 20:00:00 +0000-->
+                            </date>
+                        </datePicker>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvc-Ja-CzV">
+                            <rect key="frame" x="162.5" y="16" width="81" height="4"/>
+                            <color key="backgroundColor" name="Weem Mid Gray"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="EsH-fr-ClM"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uGe-fE-XLw">
+                            <rect key="frame" x="83" y="646" width="240" height="4"/>
+                            <color key="backgroundColor" name="Weem Mid Gray"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="mVv-8s-lfT"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="UoK-My-3EK" firstAttribute="height" secondItem="PEI-6L-Alk" secondAttribute="height" multiplier="0.4" id="1Xg-gv-7DE"/>
+                        <constraint firstItem="RcP-gx-mmN" firstAttribute="height" secondItem="PEI-6L-Alk" secondAttribute="height" multiplier="0.05" id="1xV-Fb-bbH"/>
+                        <constraint firstItem="UoK-My-3EK" firstAttribute="leading" secondItem="PEI-6L-Alk" secondAttribute="leading" constant="4" id="3aD-Yz-kUB"/>
+                        <constraint firstItem="jmv-2s-HWI" firstAttribute="top" secondItem="RcP-gx-mmN" secondAttribute="bottom" constant="12" id="81E-Ah-mqP"/>
+                        <constraint firstAttribute="trailing" secondItem="psJ-xc-Z2I" secondAttribute="trailing" constant="16" id="Cmg-IC-UUD"/>
+                        <constraint firstItem="RcP-gx-mmN" firstAttribute="top" secondItem="rvc-Ja-CzV" secondAttribute="bottom" constant="16" id="HWk-V8-5hL"/>
+                        <constraint firstAttribute="trailing" secondItem="UoK-My-3EK" secondAttribute="trailing" constant="4" id="Lft-8I-RWs"/>
+                        <constraint firstItem="rvc-Ja-CzV" firstAttribute="centerX" secondItem="PEI-6L-Alk" secondAttribute="centerX" id="Lgq-Is-9hp"/>
+                        <constraint firstItem="psJ-xc-Z2I" firstAttribute="leading" secondItem="PEI-6L-Alk" secondAttribute="leading" constant="16" id="MX9-9d-DDo"/>
+                        <constraint firstItem="uGe-fE-XLw" firstAttribute="top" secondItem="psJ-xc-Z2I" secondAttribute="bottom" constant="16" id="OPG-RH-auW"/>
+                        <constraint firstItem="rvc-Ja-CzV" firstAttribute="top" secondItem="PEI-6L-Alk" secondAttribute="top" constant="16" id="SHD-fv-uMc"/>
+                        <constraint firstItem="jmv-2s-HWI" firstAttribute="height" secondItem="PEI-6L-Alk" secondAttribute="height" multiplier="0.1" id="Szh-AF-1Mp"/>
+                        <constraint firstItem="psJ-xc-Z2I" firstAttribute="top" secondItem="UoK-My-3EK" secondAttribute="bottom" constant="24" id="T0o-zp-NV1"/>
+                        <constraint firstItem="psJ-xc-Z2I" firstAttribute="height" secondItem="PEI-6L-Alk" secondAttribute="height" multiplier="0.1" id="YBk-w7-hgj"/>
+                        <constraint firstItem="UoK-My-3EK" firstAttribute="top" secondItem="jmv-2s-HWI" secondAttribute="bottom" constant="12" id="atf-iZ-hxt"/>
+                        <constraint firstItem="uGe-fE-XLw" firstAttribute="centerX" secondItem="PEI-6L-Alk" secondAttribute="centerX" id="fR5-jW-zx2"/>
+                        <constraint firstItem="psJ-xc-Z2I" firstAttribute="centerX" secondItem="PEI-6L-Alk" secondAttribute="centerX" id="h9i-1J-aLE"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="uGe-fE-XLw" secondAttribute="bottom" constant="8" id="mtF-z1-Dge"/>
+                        <constraint firstItem="RcP-gx-mmN" firstAttribute="leading" secondItem="jmv-2s-HWI" secondAttribute="leading" id="ooQ-uG-Tld"/>
+                        <constraint firstItem="jmv-2s-HWI" firstAttribute="leading" secondItem="PEI-6L-Alk" secondAttribute="leading" constant="16" id="qUa-WO-KvE"/>
+                        <constraint firstAttribute="trailing" secondItem="jmv-2s-HWI" secondAttribute="trailing" constant="16" id="qsz-QG-66H"/>
+                        <constraint firstItem="rvc-Ja-CzV" firstAttribute="width" secondItem="PEI-6L-Alk" secondAttribute="width" multiplier="0.2" id="sfG-3p-9aB"/>
+                        <constraint firstItem="uGe-fE-XLw" firstAttribute="width" secondItem="PEI-6L-Alk" secondAttribute="width" multiplier="0.591133" id="uDZ-Q9-Ezu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="94F-dw-PN8"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PEI-6L-Alk" secondAttribute="trailing" constant="4" id="9dl-wa-naZ"/>
+                <constraint firstItem="PEI-6L-Alk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="Wxq-7B-HPp"/>
+                <constraint firstAttribute="bottom" secondItem="PEI-6L-Alk" secondAttribute="bottom" constant="4" id="elf-dv-egi"/>
+                <constraint firstItem="PEI-6L-Alk" firstAttribute="top" secondItem="94F-dw-PN8" secondAttribute="top" constant="4" id="rNv-Xu-AMC"/>
+            </constraints>
+            <point key="canvasLocation" x="711.59420289855075" y="-374.33035714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TheebPrimaryColor">
+            <color red="0.058823529411764705" green="0.41568627450980394" blue="0.64313725490196083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Weem Mid Gray">
+            <color red="0.89399999380111694" green="0.91399997472763062" blue="0.94900000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

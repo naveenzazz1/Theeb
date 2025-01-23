@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>force_update_current_version</key>
+	<string>4.0.0</string>
+	<key>android_version</key>
+	<string>{&quot;latest_version&quot;:&quot;4.0.0&quot;,&quot;force_update&quot;:false}</string>
+	<key>force_update_required</key>
+	<string>true</string>
+	<key>force_update_store_url</key>
+	<string>https://apps.apple.com/sa/app/theeb-ذيب/id1417199904</string>
+	<key>reservation_disabled</key>
+	<dict>
+		<key>disabled_message_en</key>
+		<string></string>
+		<key>disabled_message_ar</key>
+		<string></string>
+		<key>dates</key>
+		<array/>
+	</dict>
+	<key>reservation_buffer_hours</key>
+	<integer>0</integer>
+	<key>app_disabled</key>
+	<dict>
+		<key>is_disabled</key>
+		<false/>
+		<key>disabled_title_en</key>
+		<string></string>
+		<key>disabled_title_ar</key>
+		<string></string>
+		<key>disabled_message_en</key>
+		<string></string>
+		<key>disabled_message_ar</key>
+		<string></string>
+	</dict>
+	<key>payment_disabled</key>
+	<dict>
+		<key>is_disabled</key>
+		<false/>
+		<key>disabled_title_en</key>
+		<string></string>
+		<key>disabled_title_ar</key>
+		<string></string>
+		<key>disabled_message_en</key>
+		<string></string>
+		<key>disabled_message_ar</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

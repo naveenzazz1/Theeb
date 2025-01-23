@@ -1,0 +1,518 @@
+// MARK: - Login
+
+"login_button_title" = "登录";
+"login_forgetpassword_button_title" = "忘记密码？";
+"sign_up_segment_title" = "注册";
+"login_email_place_holder" = "邮箱";
+"login_invalid_input_email" = "请输入您的邮箱";
+"login_invalid_MobileNumber" = "无效手机号码";
+"login_invalid_input_password" = "请输入您的密码";
+"login_password_place_holder" = "密码";
+"login_with_absher_button_title" = "登录方式";
+"login_absher_title" = "نفاذ";
+"login_with_absher_hint_label" = "使用 Absher 登录以获得更快的结账体验";
+"login_worng_email_or_password" = "无效的电子邮箱或密码";
+"login_password_changed_succefully" = "新密码已成功发送至您的电子邮箱";
+"login_checkConnection" = "请检查您的互联网连接";
+"login_error" = "错误";
+"login_alert" = "提醒";
+"login_OK" = "好的";
+// MARK: - SignUp
+"sign_up_button_title" = "继续";
+"sign_up_identity_id_iqama_passport" = "身份证号码，护照，Iqama";
+"sign_up_full_name_placeholder" = "全名";
+"sign_up_phone_number_placeholder" = "电话号码";
+"Please enter a valid ID number, passport, or Iqama." = "请输入有效的身份证号码、护照或 Iqama。";
+"Please enter a valid BirthDate" = "请输入有效的出生日期。";
+
+"ID Number/ Iqama" = "身份证号码/ Iqama";
+"Passport" = "护照";
+
+"Please enter a valid ID number, or Iqama." = "请输入有效的身份证号码或Iqama。";
+"Please enter a valid passport" = "请输入有效的护照。";
+"Please enter a full name" = "请输入完整姓名";
+"Please enter a valid email" = "请输入有效的电子邮件地址";
+
+// 标记：- CountryPicker
+
+"country_picker_cancel_button" = "取消";
+"country_picker_cancelBookingn" = "取消预订";
+// 标记：-创建密码
+
+  "create_password_enter_otp_placeholder" = "通过您的电子邮件输入发送的密码";
+"create_password_submit_button_title" = "提交";
+
+// 标记：-忘记密码
+
+"forget_password_title_label" = "重置密码";
+"forget_password_otp_place_holder" = "输入您的电子邮件以发送代码";
+"forget_password_next_button_title" = "下一步";
+
+
+// 标记：- 着陆页
+
+"landing_page_my_account_item" = "个人资料";
+"landing_page_my_booking_item" = "我的租借";
+"landing_page_book_weem_item" = "探索";
+"landing_page_need_help_item" = "我的合同";
+"landing_page_more_item" = "更多";
+"maintenace_alert_title" = "维护中";
+"maintenace_alert_msg" = "我们的工程师目前正在仪表板上执行定期维护。
+任何不便敬请谅解。";
+
+// 标记：- 配置文件
+
+"profile_title_label" = "简介";
+"profile_btn_edit_title" = "编辑个人资料";
+"profile_item_bills" = "账单";
+"profile_item_delete" = "删除";
+"profile_item_deleteAcount" = "删除你的账户";
+"profile_item_deleteAcountAlertMsg" = "您确定要永久删除您的帐户吗？";
+"profile_item_contracts" = "合同";
+"profile_item_objections" = "异议";
+"profile_item_saved_cards" = "保存的卡片";
+"profile_item_log_out" = "退出";
+"profile_membership_title" = "我的会员资格";
+"profile_Edit_ID" = "ID";
+"profile_Edit_birthdate" = "出生日期";
+"profile_WeNeedVerify" = "我们需要验证您的身份";
+"profile_updateDoc" = "更新文档";
+"profile_updateSuccesull" = "用户资料更新成功";
+"profile_updateFailed" = "用户资料更新失败";
+"profile_updateBtn" = "更新";
+"profile_licence" = "许可证";
+"profile_jobLicence" = "职位编号";
+"profile_save" = "保存";
+"profile_membershipBeAMember" = "成为会员";
+"profile_membershipBenifits" = "成为会员不要错过我们的好礼遇";
+"profile_EarnPoint" = "再赚 500 分即可达到 Golden";
+"profile_EqualsTo" = "等于";
+"profile_to" = "到";
+"profile_Nationality" = "国籍";
+"profile_idNumber" = "身份证号码";
+"profile_idVersion" = "身份证版本";
+"profile_licenseNumber" = "许可证号";
+"profile_licenseExpiryDate" = "许可到期日";
+"profile_gender" = "性别";
+"profile_addresses" = "地址";
+"profile_addresse2Optional" = "地址 2（可选）";
+"profile_addresse1" = "地址 1";
+"profile_Male" = "男";
+"profile_Female" = "女";
+
+"create_password_text_field_place_holder" = "确认您的密码";
+"create_password_text_field_password_not_match_error" = "密码不匹配";
+"password_reset" = "重置密码";
+
+"password_changed" = "密码修改成功。";
+
+// 马克：-MoreVC
+
+"more_privacyPolicy" = "隐私政策";
+"more_carfleet_title" = "Theeb 舰队";
+"more_theebbranches_title" = "Theeb 分支机构";
+"more_ourservices_title" = "我们的服务";
+"more_ourmembership_title" = "我们的会员";
+"more_Ehsan_title" = "Theeb Al Kheir";
+"more_Ehsan_Description" = "在服务社区及其发展方面的有效贡献";
+"more_Ehsan_readMore" = "阅读更多";
+"more_Ehsan_Donate" = "捐赠";
+"more_Ehsan_Other" = "其他";
+"more_Ehsan_DonationDomain" = "捐赠域名";
+"more_Ehsan_DonationAmount" = "捐款金额";
+"more_Ehsan_10Sr" = "10 SR";
+"more_Ehsan_50Sr" = "50 SR";
+"more_Ehsan_100Sr" = "100 SR";
+"more_helpandsupport_title" = "帮助与支持";
+"more_aboutheeb_title" = "关于 Theeb";
+"more_setting_title" = "设置";
+"more_title" = "更多";
+"more_Zero" = "0";
+"more_accedintServiceTitle" = "意外援助服务";
+"more_accedintServiceContent" = "Theeb rental a car 始于1991年，基于信任和努力，从位于利雅得地区Al-Malaz区的第一家分店开始拥有近50辆汽车的车队并不断扩展，直到 Theeb 公司的分支机构达到了 52 个分支机构，分布在王国的各个地区，在国际和国内机场开设了 15 个分支机构，并成为汽车租赁领域的先驱之一，拥有超过 22,000 辆汽车，激活超过 84 个不同的 类型的汽车。可以为我们的客户提供的服务质量和生活方式，但我们在工作中是准确的，我们为租户客户提供服务的兴趣将无法通过定期更新和更新的各种车队的愿望来保证。 全天候得到照顾和支持。";
+"more_accedintServiceTitle" = "意外援助服务";
+"more_accedintServiceContent" = "Theeb Car Rental Company 从客户从公司分支机构收到汽车到租赁期结束后交付汽车，为客户提供支持。万一发生事故，上帝保佑，公司通过 专门团队与主管部门跟进，免除客户办理某些手续。 一个案例";
+"more_businessSectorTitle" = "商业部门";
+"more_businessSectorContent" = "公司通过短期和长期合同为所有政府实体和私营部门公司提供广泛的物流解决方案和服务，我们根据每个客户的需求类型专业高效地满足他们的需求。" ;
+"more_service_car_sales_title" = "汽车销售";
+"more_service_car_sales_content" = "Theeb 汽车租赁公司对其汽车的持续关注使车辆享有使用寿命、耐用性和准备就绪。这导致购买不在服务范围内的车辆的大量需求 使租赁车队现代化的目的。这些汽车可在 Theeb 汽车经销商处出售，该经销商提供其 2 年和 2 年以下的二手车出售";
+"more_service_cross_border_title" = "跨境服务";
+"more_service_cross_border_content" = "Theeb Car Rental Company 高度信任其客户。这使它能够推出加强与客户伙伴关系的计划。跨境服务证明了这种信任的程度。这是由 Theeb 推出的最重要的服务之一 公司为希望乘坐公司汽车前往王国境外许多国家旅行的客户提供服务。在短时间内，获得旅行证并轻松完成交通手续";
+"more_service_limo_title" = "豪华轿车服务";
+"more_service_limo_content" = "豪华轿车服务是 Theeb 汽车租赁公司为其客户提供的服务之一，通过家庭和豪华轿车等各种汽车，配备负责任和高效的阿拉伯语和英语制服司机。豪华轿车服务也可用于 公司的客户，特别是政府部门、公司、访问团、参观者和旅游者。";
+"more_service_raha_title" = "拉哈服务";
+"more_service_raha_content" = "临时服务 - 为老年人和有特殊需要的人提供的汽车 服务各类客户，满足他们的各种需求和愿望 与此相契合，Theeb Car Rental Company免费提供配备轮椅的家庭用车，帮助客户轻松出行。Theeb Car Rental Company是第一家提供 这项服务在王国。";
+"more_service_rent_car_title" = "租车";
+"more_service_rent_car_content" = "公司仔细考虑其客户，无论是个人还是行业，因为他们代表了公司在整个王国地区的销售额的重要数字。与此相一致，公司努力通过以下方式维持其每年增长的客户群 良好的价格和优惠，以适应个人、私人和政府实体，以及通过提供支持服务。公司还与客户打交道，非常灵活，增强了相互信任，使公司拥有大量永久客户 长期客户的业绩记录受到公司的高度赞赏并成为公司的骄傲。";
+"more_service_one_destination_title" = "一站式服务";
+
+"more_service_rent_car_content" = "公司仔细考虑其客户，无论是个人还是行业，因为他们代表了公司在整个王国地区的销售额的重要数字。与此相一致，公司努力通过以下方式维持其每年增长的客户群 良好的价格和优惠，以适应个人、私人和政府实体，以及通过提供支持服务。公司还与客户打交道，非常灵活，增强了相互信任，使公司拥有大量永久客户 长期客户的业绩记录受到公司的高度赞赏并成为公司的骄傲。";
+"more_service_one_destination_title" = "一站式服务";
+"more_service_one_destination_content" = "一站式服务-王国各地区之间的旅行为了确保其客户的便利性，提供方便他们移动的服务，并缩短时间和精力，一站式服务使通过以下方式旅行的可能性成为可能 通过低成本的充电服务，汽车从一个城市到另一个城市，并且可以不将其返回到第一个城市的同一分支机构。";
+"more_BranchDays" = "周六到周四";
+"more_BranchTime" = "(8:00Am 到 10:00Pm)";
+"more_BranchFriday" = "星期五";
+"more_GetDirections" = "获取路线";
+// MARK: - 帮助和支持
+
+"help_support_whatsup" = "什么是应用";
+"help_support_call_us" = "给我们打电话";
+
+
+// 马克：- 账单
+"bills_screen_title" = "账单";
+"bills_paid_invoice" = "已付";
+"bills_un_paid_invoice" = "未付";
+
+
+//MARK: - 会员资格
+
+"Note: " = "注意: ";
+
+"memberShip_NumOfPoints" = "点数";
+"memberShip_Benfits" = "福利";
+"memberShip_Requirements" = "要求";
+"memberShipVc_Alfursan" = "Alfursan";
+"memberShipVc_Transfer_Theep" = "将 theeb 点转移到 Alfursan";
+"memberShipVc_Transfeer_Point_Btn" = "转移积分";
+"memberShipVc_Alfursan_upgrade" = "升级";
+"alforsan_EnterID" = "请输入您的 AlFoursan ID";
+"alforsan_Points" = "请输入有效积分";
+"alforsan_yourBalance" = "您的余额是";
+"alforsan_pointsWorth" = "积分";
+"alforsan_transfeerPoints" = "将积分转移到 Alforsan";
+"alforsan_NumOfPoints" = "您要转移的点数：";
+"alforsanVC_Alfursan_ID" = "Alfursan ID:";
+"alforsanVC_AreYouSure" = "你确定要将 theeb 指向 Alfursan 吗？";
+"alforsanVC_conirmTransform" = "确认转换";
+"alforsanVC_cancel" = "取消";
+"alforsanVC_Confirm" = "确认";
+"memberDetailsVC_silver" = "银";
+"memberDetailsVC_upgrade" = "升级";
+"memberDetailsVC_subscribe" = "订阅";
+"memberDetailsVC_processing" = "您的会员申请正在处理中";
+"memberDetails_learnMore" = "了解更多";
+"memberDetailsVC_bronz" = "青铜";
+"memberDetailsVC_Gold" = "黄金";
+"memberDetailsVC_ata" = "Ata'a";
+"memberDetailsVC_diamond" = "钻石";
+"memberDetailsVC_automatically" = "第一个合约结束后自动给所有客户";
+"memberDetailsVC_BenefitsRentDiscount" = "租金折扣";
+"memberDetailsVC_oneDirectionDiscount" = "单向折扣";
+"memberDetailsVC_kmFree" = "免费公里数";
+"memberDetailsVC_extra3Hours" = "额外 3 小时";
+"memberDetailsVC_extra2Hours" = "额外 2 小时";
+"memberDetailsVC_extra5Hours" = "额外 5 小时";
+"memberDetailsVC_gulfFees" = "SR 旅行授权 - 海湾国家费用";
+"memberDetailsVC_arabicFees" = "SR 旅行授权 - 阿拉伯国家费用";
+"memberDetailsVC_gulfFeesFree" = "免费旅行授权 - 海湾国家费用";
+"memberDetailsVC_arabicFeesFree" = "免费旅行授权 - 阿拉伯国家费用";
+"memberDetailsVC_earn05Point" = "每 100 SR 获得 0.5 积分";
+"memberDetailsVC_earn1Point" = "每 100 SR 获得 1 积分";
+"memberDetailsVC_payWithTheeb" = "使用 Theeb 积分支付";
+"memberDetailsVC_payWithQateef" = "Qitaf积分支付";
+"memberDetailsVC_payWithAlfursan" = "使用 Alfursan 积分支付";
+"memberDetailsVC_bronzReqContract" = "在没有负债且没有会员资格的情况下关闭第一个合同时";
+"memberDetailsVC_bronzReqAutomatic" = "系统自动发放，无需申请发放";
+"memberDetailsVC_SilvarReqContract" = "根据条款和条件，客户的租金余额应为 5,000 SAR";
+"memberDetailsVC_GoldenReqContract" = "根据条款和条件，客户的租金余额应为 20,000 SAR";
+"memberDetailsVC_diamondReqContract" = "根据条款和条件，客户的租金余额应为 60,000 SAR";
+"memberDetailsVC_ataaReqContract" = "残疾人证或任何身份证件。";
+"Your points balance:" = "您的积分余额：";
+
+//标记：- 设置
+"setting_language" = "语言";
+"setting_faceId" = "人脸ID验证";
+"setting_hourSystem" = "小时制";
+"setting_mode" = "模式";
+"On" = "开";
+"Off" = "关闭";
+"setting_Notification" = "通知设置";
+"setting_title" = "设置";
+
+"checkOutVC_date" = "出生日期";
+"checkOutVC_email" = "电子邮件";
+"checkOutVC_name" = "全名";
+"checkOutVC_phone" = "电话";
+"checkOutVC_insurance" = "保险";
+"checkOutVC_addOns" = "插件";
+"checkOutVC_freeKilos" = "免费使用千克";
+"checkOutVC_canCancel" = "您可以在 THEEB 确认之前随时取消";
+"checkOutVC_Day" = "日";
+"checkOutVC_commitInfo" = "我承诺我所有的信息都是正确的并且接受这个我同意 theeb";
+"checkOutVC_TermsAndCond" = "条款与条件";
+"checkOutVC_bookow" = "立即预订";
+"myrental_no_bookings_empty" = "没有租车";
+"myrental_no_bboking_hint_label" = "当你租车时，你会在这里看到详细信息";
+"myRental_luxury" = "豪华房";
+"checkOutVc_compact" = "紧凑";
+"checkOut_extraFeesWillApplied" = "如果退货地点在东部省外，将收取额外费用";
+"checkOut_blackList" = "抱歉，临时暂停无法创建预订，详情请联系客服";
+"checkOut_extraHours" = "%@ 根据您的会员资格允许的额外时间";
+"checkOut_default" = "默认";
+"checkOut_goldenMember" = "黄金会员";
+"checkOut_silverMember" = "白银会员";
+"checkOut_diamondMember" = "钻石会员";
+"checkOut_greenMember" = "Ata'a 会员资格";
+"checkOut_bronzMember" = "青铜会员";
+"checkOut_keepMyBooking" = "不，保留我的预订";
+"checkOut_cancelMyBooking" = "是的，取消我的预订";
+"checkOut_cancelFees" = "如果有取消费用将被收取";
+"checkOut_copiedToClip" = "复制到剪贴板";
+"successScreen_paymentSuccess" = "支付成功";
+"successScreen_confrimAfterOneHour" = "您的预订将在 1 小时内确认";
+"successScreen_backToDetails" = "返回详情";
+"car_found_result" = "找到汽车";
+"renalhistory_from_label" = "来自";
+"renalhistory_to_label" = "至";
+"create_password_hint_label" = "创建密码";
+
+//MARK: - 舰队
+"fleet_theebFleet" = "Theeb 舰队";
+"fleet_WillSendyou" = "我们将在预订确认后发送给您付款链接";
+"fleet_confirmavaiabilty" = "确认将按车辆类别或根据可用性进行等效";
+"fleet_freeService" = "免费服务";
+"fleet_chooseCar" = "选择汽车";
+"fleet_price" = "价格";
+"fleet_brand" = "品牌";
+"fleet_carType" = "车型";
+"年份" = "年份";
+"fleet_apply" = "申请";
+"fleet_includeKm" = "包括 225 公里免费";
+"fleet_mayIncrease" = "登录后可能会根据您的会员资格增加
+";
+"fleet_roadside" = "道路救援";
+"fleet_accedent" = "事故求助";
+"rental_totalFree" = "总免费";
+"rental_payBefore" = "您必须在预定时间前付款才能取消预订";
+"rental_freeKilosToUse" = "免费公斤使用";
+"rental_freeKilos" = "免费公斤";
+"rental_howToPay" = "选择支付方式";
+"rental_paymentInfo" = "支付信息";
+"rental_rentaInfo" = "租赁信息";
+"rental_payNow" = "立即付款";
+"rental_pay_Pay" = "支付";
+"rental_pay_Now" = "现在";
+"rental_paymentMethod" = "支付方式";
+"rental_cancelPolcy" = "确认和取消政策";
+"rental_byConfirming" = "通过确认此预订，我同意条款和条件以及隐私政策";
+"rental_Booking" = "预订";
+"rental_BookingCancell" = "预订取消成功";
+"rental_all" = "全部";
+"rental_invoice" = "未付";
+"rental_carRental" = "租车";
+"rental_vatValue" = "增值税";
+"rental_totalValue" = "总计";
+"renta_Delivery" = "运费";
+"rental_memberShipDeiscount" = "会员折扣";
+"rental_memberShipTitle" = "会员资格";
+"renta_extraFees" = "额外费用";
+"rental_BookingstatusCanceled" = "预订已取消";
+"error_already_registered" = "你已经注册了";
+"error_Occured_msg" = "发生错误";
+"details_paid_amount_hint_label" = "支付金额";
+"rental_BookingstatusConfirmed" = "预订已确认";
+"rental_Bookingstatuswaiting" = "等待确认";
+"rental_caravAailable" = "Car Available on";
+"rental_carReturnOn" = "还车时间";
+"rental_carSchadulaed" = "还车日期";
+"rental_youHaveCar" = "你有车";
+"rental_carWithYou" = "有车有你";
+"rental_viewDetails" = "查看详情";
+"rental_carReturned" = "汽车已归还";
+"rental_carDetails" = "汽车详情";
+"rental_pointsAdded" = "150 Points 将添加到 Theeb points";
+"rental_PayForFull" = "付全款";
+"rental_payForFirst" = "第一天付款，其余的稍后付款";
+"renta_ChildSeat" = "儿童安全座椅";
+"rental_pickUpOn" = "取货时间";
+"rental_resturnOn" = "返回";
+"renta_areYouSure" = "你确定要取消吗？";
+"addtional_insurance_recommended_label" = "为了您的安全，建议服用";
+"standard_insurance" = "标准";
+//标记：- MapLocation
+
+"mapLocation_chooseLocation" = "选择位置";
+"mapLocation_selectPickLocation" = "选择上车地点";
+"mapLocation_selectTReturnLocation" = "选择归还地点";
+"mapLocation_pickUp" = "上车";
+"mapLocation_selectDates" = "确认位置";
+"mapLocation_pickUpDate" = "取件日期";
+"mapLocation_returnDate" = "返程日期";
+"mapLocation_pickUpTime" = "上车时间";
+"mapLocation_returnTime" = "返程时间";
+"mapLocation_youCanReturn" = "您可以在您选择的时间之前还车";
+"mapLocation_pickUpAndReturnTime" = "接送时间";
+"mapLocation_selectPickTime" = "选择上车时间";
+"mapLocation_selectReturnTime" = "选择返程时间";
+"mapLocation_serechForCar" = "搜索汽车";
+"mapLocation_differentCity" = "不同分支还车";
+"mapLocation_pickShouldBe" = "接载时间至少应在 %d 小时后。";
+"mapLocation_opening" = "开放时间从";
+//"mapLocation_ShouldBe" = "接载时间至少在4小时后。";
+"mapLocation_ShouldBe" ="返回时间应至少在现在之后 %d 小时，基于沙特阿拉伯时间。";
+"mapLocation_ReturnShouldBe" = "返回时间应至少在现在之后 %d 小时，基于沙特阿拉伯时间。";
+"mapLocation_ReturnAnyWhere" = "把你的车还到你想去的任何地方";
+"mapLocation_ReturnYourCars" = "你的车";
+"mapLocation_TrackYourBookink" = "实时跟踪您的预订的位置";
+"mapLocation_confirmDate" = "确认日期";
+"mapLocation_confirmTime" = "确认时间";
+"mapLocation_workingHour" = "工作时间：";
+"mapLocation_Fax" = "传真";
+
+"offers_title_label" = "优惠";
+"clear_all_filters_btn_title" = "清除所有过滤器";
+//MARK: - 日期选择器
+
+"date_picker_done_title" = "选择时间";
+"date_picker_done_titlee" = "选择日期";
+"date_picker_cancel_title" = "返回";
+"datePicker_chooseDate" = "选择日期";
+"bills_all_fine_label" = "一切正常";
+"bills_fine_hint_label" = "没有账单";
+"car_details_recommended_imsurance" = "推荐";
+"car_detials_select_car" = "选择汽车";
+"faceid_enble_btn" = "启用";
+"faceid_skip_btn" = "跳过";
+"cardetails_internal_authrization" = "内部授权";
+"faceid_skip_title" = "启用验证";
+"faceid_skip_hint" = "启用验证以便下次快速访问您的帐户，并提高安全性。";
+//MARK: - 帮助与支持
+"please_fill_data" = "请选择接送地点和时间";
+"help_suppot_nedd_help" = "需要我们的帮助吗？" ;
+"help_support_contact_with_team" = "联系我们的团队" ;
+
+//MARK: - 成功屏幕
+
+"success_screen_your_booking_created_succefully" = "您的预订创建成功";
+
+//MARK: - 舰队
+
+"fleet_22km_free" = "225Km 免费";
+"fleet_seats" = "座位";
+"km_hint" = "公里";
+"min_hint" = "min";
+"fleet_vat_not_included" = "不含增值税";
+"fleet_vat_included" = "含增值税";
+"fleet_DriverInfo" = "司机信息";
+"car_detils_add_ons" = "附加组件";
+//MARK: - 关于 VC
+
+"about_content_for_about_theeb" = "Theeb rental a car 始于1991年，基于信任和努力，从利雅得地区Al-Malaz区的第一家分店开始，拥有近50辆汽车的车队并不断扩展，直到 Theeb 公司的分支机构达到了 51 个分支机构，分布在王国的各个地区，在国际和国内机场开设和制造了 15 个分支机构，成为汽车租赁领域的先驱之一，拥有超过 19,000 辆汽车，激活超过 84 个不同的 类型的汽车。可以为我们的客户提供的服务质量和生活方式，但我们在工作中是准确的，我们为租户客户提供服务的兴趣将无法通过定期更新和更新的各种车队的愿望来保证。 全天候得到照顾和支持。";
+
+
+"about_title" = "意外援助服务";
+
+//MARK: - 我们的服务
+
+"ourservices_accident_assitance_services" = "事故援助服务";
+"ourservices_bussiness_sector" = "商业部门";
+"ourservices_car_sales" = "汽车销售";
+"ourservices_cross_border_service" = "跨境服务";
+"ourservices_limo_service" = "豪华轿车服务";
+"ourservice_onedestination_service" = "一站式服务";
+"ourservice_raha_service" = "拉哈服务";
+"ourservice_rent_car" = "租车";
+"our_service_theeb_services" = "Theeb 服务";
+"fleet_insurance" = "保险";
+"payment_payment_details" = "付款" ;
+"payment_payment_detailـchoose_option" = "选择付款方式";
+"payment_applePay" = "苹果支付";
+"payment_total" = "总计";
+"payment_Currenttotal" = "当前总额";
+"payment_pay_with_card" = "用卡支付";
+"payment_or_label" = "OR";
+"payment_payFullAmount" = "支付全额";
+"payment_creditcard" = "信用卡";
+"payment_payPartialy" = "部分支付";
+"payment_laterPay" = "稍后付款";
+"payment_Declined" = "尊敬的客户，您的付款已被拒绝，请联系您的银行。";
+"payment_ThankYou" = "谢谢你，我们已经从你的合同中捐赠了部分给孤儿";
+"payment_HowMuch" = "你现在想付多少钱？";
+"Pay the full amount for %@ days" = "支付%@天的全款";
+"Pay the full amount for " = "支付%@天的全款";
+"  %@ SAR" = "  %@ SAR";
+"Pay for only one day" = "支付仅一天的费用";
+"per_month_label" = "/月";
+"per_day_label" = "/天";
+"sar" = "特区";
+"car_details_title" = "汽车详情";
+"car_details_seats" = "座位";
+"car_details_doors" = " 门";
+"car_details_bags" = "包";
+"car_details_gps_avaliable" = "GPS可用";
+"car_details_price_hint" = "不包括增值税、保险和附加费";
+"car_details_gps_not_avaliable" = "GPS 不可用";
+"paymeny_vat" = "（含增值税）";
+"payment_more_than_current" = "支付金额必须小于总金额";
+
+"checkout_upgrade_btn_title" = "升级";
+"checkout_pickup_on" = "取货时间";
+"checkout_Return_on" = "返回";
+"checkout_vc_title" = "查看预订";
+"checkout_clear_filter" = "清除过滤器";
+"checkout_brand_filter_title" = "品牌";
+"checkout_clear_filter" = "清除过滤器";
+"checkout_cartype_filter_title" = "车型";
+"checkout_price_filter_title" = "价格";
+"checkout_apply_btn_title" = "申请";
+"checkout_at" = "在";
+"chekout_plus_more" = "+3 更多";
+"chekout_total_free" = "总免费";
+"checkout_editbtn_title" = "编辑";
+"car_details_remove_btn" = "删除";
+"fleet_from_zero_to_90" = "从 0 到 90 SAR";
+"fleet_from_91_to_200" = "从 91 到 200 SAR";
+"fleet_more_than_200" = "200 SAR 或更多";
+"fleet_from_zero_to_250" = "从 0 到 250 SAR";
+"fleet_from_251_to_450" = "从 251 到 450 SAR";
+"fleet_from_451_to_700" = "从 451 到 700 SAR";
+"fleet_from_701_to_1000" = "从 701 到 1000 SAR";
+"fleet_from_1001_to_2000" = "从 1001 到 2000 SAR";
+"fleet_from_2000_to_more" = "2001 SAR 或更多";
+"fleet_bookingNumber" = "预订编号";
+"fleet_contractNumber" = "合同编号";
+"suecess_goto_details" = "转到详细信息";
+"success_booking_number_is" = "您的预订编号是";
+"login_with_absher_btn_title" = "登录方式";
+"logout_Err_msg" = "您确定要退出您的账户吗？";
+"logout" = "注销";
+"guest_login" = "加入我们预订更快";
+"force_update_title" = "新版本可用！";
+"force_update_message" = "你需要更新到最新版本才能继续";
+"normal_update_title" = "新版本可用！";
+"normal_update_message" = "您应该更新以享受最新的功能和改进";
+"not_now" = "不是现在";
+"exit_app" = "退出应用";
+"alert_language" = "您确定要切换语言吗 ?";
+"alert_success" = "成功";
+"language_Yes" = "是的";
+"language_No" = "不";
+"termsAndCondidtions_Arabic" = "لا نقدّمُ من جهتنا كما لا يقدّم أيّ طرف ثالث أيّ ضمانة بدقةِ وتماميّة أو ملاءمة المعلومات والموادّ المذكورة في هذا الموقع الإلكترونيّ لأيِّ غرض معيّن. إنكّم تقرّون بأنّ هذه المعلومات أو الموادّ قد تتضمّن أخطاءً أو مغالطاتٍ، ونحن نرفعُ بدورنا مسؤوليّتنا صراحة عن أيِّ مغالطات أو أخطاء واردة على هذا الموقع الإلكترونيّ إلى الحدود المطلقة التي يسمحُ بها القانون.
+
+يقعُ استخدامكم لأيِّ معلومات أو مواد واردة على هذا الموقع الإلكترونيّ على مسؤوليّتكم الخاصّة، ونحن لا نتحمّل أيّ مسؤوليّة عن المعلومات والمواد المذكورة. تكمنُ مسؤوليّتكم الخاصّة في التأكّدِ من أنّ أيّ منتجاتٍ أو خدمات أو معلومات متوفرة على هذا الموقع الإلكترونيّ تستوفي متطلبّاتكم الخاصّة.
+
+يتضمّن هذا الموقع الإلكترونيّ مواداً مملوكة من قبلنا ومرخّصة لنا. وتضمّ هذه الموادّ، على سبيل المثال لا الحصر، التصاميم والرسوم والنماذج المطبعية. ويُحظّرُ إعادة نسخ ونشر هذه الموادّ باستثناء بما يتوافق مع إخطار حقوق النشر التي تشكّل جزءاً من هذه البنود والشروط.
+
+يتمّ الإقرار بكافة العلامات التجاريّة الواردة على هذا الموقع الإلكتروني بحيث لا تكون ملكاً للمشغّل أو تكون مرخّصة له.
+
+ينشأ عن الاستخدام غير المرخّص له لهذا الموقع الإلكتروني مطالبة بالتعويض عن الأضرار ويعد فعلاً إجراميّاً.
+
+يمكن أن يضمّ هذا الموقع الإلكترونيّ، من حين إلى آخر، روابط متعلّقة بمواقع إلكترونيّة أخرى. تتوفرُ هذه الروابط لتأمين معلوماتٍ إضافيّة لكم، ولا تدلّ بالتالي على أنّنا نصادق على مضمون المواقع الأخرى. إنّنا لا نتحمّل أيّ مسؤوليّة عن مضمون المواقع الإلكترونيّة الأخرى المتصلة بالروابط.
+
+لا يحقّ لكم إنشاء رابط لهذا الموقع الإلكترونيّ من أيّ موقع إلكتروني آخر أو مستند آخر من دون الحصول على موافقة شركة ذيب لتأجير السيارات الخطيّة المسبقة.
+
+يخضعُ استخدامكم لهذا الموقع الإلكترونيّ وأيّ نزاع ينشأ عن هذا الاستخدام لقوانين المملكة العربيّة السعوديّة";
+
+// missing
+
+"Amount can't be 0" = "金额不能为0";
+"new_privacy_policy" = "Privacy Policy";
+"new_privacy_policy_text" = "▪︎ Data required to perform business transactions like Name, DOB, License No, Expiry date etc are only collected from the individual.\n
+▪︎ Data collected from individual are solely used to avoid data entry multiple times and to give better services to the customer.\n
+▪︎ Personal data collected from the individuals are kept under strict safeguard.\n
+▪︎ No part of data is shared or have access by any external entities except concerned regulatory authorities related to business / service industry.\n
+▪︎ No financial data is collected or stored by Theeb Rent A Car Co.\n
+▪︎ Credit / Debit card no taken for references are stored in mask format.\n
+▪︎ All the data collected from individuals are displayed under user profile for registered users.";
+

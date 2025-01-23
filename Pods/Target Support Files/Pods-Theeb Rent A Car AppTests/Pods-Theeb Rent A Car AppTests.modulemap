@@ -1,0 +1,6 @@
+framework module Pods_Theeb_Rent_A_Car_AppTests {
+  umbrella header "Pods-Theeb Rent A Car AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

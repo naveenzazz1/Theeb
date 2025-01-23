@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Theeb_Rent_A_Car_App_Theeb_Rent_A_Car_AppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Theeb_Rent_A_Car_App_Theeb_Rent_A_Car_AppUITests
+@end

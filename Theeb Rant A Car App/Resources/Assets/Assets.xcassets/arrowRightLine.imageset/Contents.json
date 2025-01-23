@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "arrow-right-line.pdf",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "locale" : "ar"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "locale" : "en"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

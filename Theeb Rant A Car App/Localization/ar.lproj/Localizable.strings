@@ -1,0 +1,547 @@
+/* 
+  Localizable.strings
+  Theeb Rant A Car App
+
+  Created by Moustafa Gadallah on 24/04/1443 AH.
+  
+*/
+
+// MARK: - Login
+
+"login_button_title" = "تسجيل الدخول";
+"login_forgetpassword_button_title" = "نسيت كلمة المرور ؟";
+"login_invalid_input_email" = "من فضلك ادخل البريد الالكتروني الخاص بك";
+"login_invalid_input_password" = "من فضلك ادخل كلمة المرور";
+"sign_up_segment_title" = "تسجيل جديد";
+"login_email_place_holder" = "البريد الالكتروني";
+"login_invalid_MobileNumber" = "رقم الجوال غير صالح";
+"login_password_place_holder" = "كلمة المرور";
+"login_with_absher_button_title" = "تسجيل الدخول من خلال";
+"login_absher_title" = "نفاذ";
+"login_with_absher_hint_label" = "قم بتسجيل الدخول باستخدام أبشر لتجربة أسرع";
+"error_already_registered"  = "أنت مسجل بالفعل";
+"login_worng_email_or_password" = "البريد الالكتروني او كلمة المرور غير صحيحة";
+"login_password_changed_succefully" = "تم ارسال كلمة المرور الجديدة علي البريد الالكتروني";
+"login_checkConnection" = "الرجاء التحقق من اتصال الانترنت الخاص بك";
+"login_error" = "خطأ";
+"login_alert" = "تنبيه";
+"login_OK" = "حسنا";
+
+// MARK: - SignUp
+
+"sign_up_button_title" = "استمرار";
+"sign_up_identity_id_iqama_passport" = "رقم الهوية ، رقم الاقامة ، رقم جواز السفر";
+"sign_up_full_name_placeholder" = "الاسم بالكامل";
+"sign_up_phone_number_placeholder" = "رقم الجوال";
+
+"Please enter a valid ID number, passport, or Iqama." = "قم بادخال رقم الهوية ، رقم الاقامة ، رقم جواز السفر بطريقة صحيحة";
+"Please enter a valid BirthDate" = "قم بادخال تاريخ ميلاد صحيح";
+
+"ID Number/ Iqama" = "رقم الهوية/ الاقامة";
+"Passport" = "رقم جواز السفر";
+
+"Please enter a valid ID number, or Iqama." = "قم بادخال رقم الهوية ، رقم الاقامة بطريقة صحيحة";
+"Please enter a valid passport" = "قم بادخال رقم جواز السفر بطريقة صحيحة";
+"Please enter a full name" = "قم بادخال الاسم بالكامل";
+"Please enter a valid email" = "قم بادخال الايميل بطريقة صحيحة";
+// MARK: - CountryPicker
+
+"country_picker_cancel_button" = "إلغاء";
+"country_picker_cancelBookingn" = "إلغاء الحجز";
+
+
+// MARK: -CreatePassword
+
+ "create_password_enter_otp_placeholder"  = "ادخل كود التحقق من بريدك الالكتروني";
+"create_password_submit_button_title" = "تسجيل";
+
+// MARK: -forgetPassword
+
+"forget_password_title_label" = "تغيير كلمة المرور";
+"forget_password_otp_place_holder" = "ادخل البريد الالكتروني لارسال رمز التحقق";
+"forget_password_next_button_title" = "التالي";
+
+
+// MARK: - Landing Page
+"landing_page_No_Stored_Notifications" = "ليس لديك إشعارات";
+"landing_page_Notifications" = "الإشعارات";
+"landing_page_my_account_item" = "حسابي";
+"landing_page_my_booking_item" = "ايجاراتي";
+"landing_page_book_weem_item" = "تصفح";
+"landing_page_need_help_item" = "عقودي";
+"landing_page_more_item" = "المزيد";
+"maintenace_alert_title" = "تحت الصيانة";
+"maintenace_alert_msg" = "يقوم مهندسونا حاليًا بإجراء صيانة مجدولة على لوحة المعلومات.
+نأسف لأي ازعاج.";
+
+// MARK: - Profile
+
+"profile_title_label" = "الملف الشخصي";
+"profile_btn_edit_title" = "تعديل الملف الشخصي";
+"profile_item_bills" = "الفواتير";
+"profile_item_delete" = "حذف";
+"profile_item_deleteAcount" = "حذف حسابك";
+"profile_item_deleteAcountAlertMsg" = "هل أنت متأكد أنك تريد حذف حسابك بشكل دائم؟";
+"logout" = "تسجيل الخروج";
+"logout_Err_msg" = "هل انت متاكد من انك تريد تسجيل الخروج من حسابك؟";
+"profile_item_contracts" = "العقود";
+"profile_item_objections" = "الاعتراضات";
+"profile_item_saved_cards" = "المحفظة";
+"profile_item_log_out" = "تسجيل خروج";
+"profile_membership_title" = "عضويتي";
+"profile_points_title" = "نقاطي";
+"profile_updateSuccesull" = "تم تحديث ملف تعريف المستخدم بنجاح";
+"profile_updateFailed" = "فشل تحديث ملف تعريف المستخدم";
+"profile_Edit_ID" = "هوية شخصية";
+"profile_Edit_birthdate" = "تاريخ الميلاد";
+"profile_WeNeedVerify" = "نحن بحاجة للتحقق من هويتك";
+"profile_updateDoc" = "تحديث المستندات";
+"profile_updateBtn" = "تحديث ";
+"profile_licence" = "الرخصة";
+"profile_jobLicence" = "رخصة العمل";
+"profile_save" = "حفظ";
+"details_paid_amount_hint_label"  = "المبلغ المدفوع";
+"profile_membershipBeAMember" = "كن عضوا";
+"profile_membershipBenifits" = "كن عضوا حتى لا تفوت مزايانا الرائعة";
+"profile_EarnPoint" = "اكسب 500 نقطة للوصول إلى العضوية الذهبية";
+"profile_EqualsTo" = " يساوي ";
+"profile_to" = "إلى";
+"profile_Nationality" = "Nationality";
+"profile_idNumber" = "ID Number";
+"profile_idVersion" = "ID Version";
+"profile_licenseNumber" = "License Number";
+"profile_licenseExpiryDate" = "License Expiry Date";
+"profile_gender" = "Gender";
+"profile_addresses" = "Addresses";
+"profile_addresse2Optional" = "Address 2 (Optional)";
+"profile_addresse1" = "Address 1";
+"profile_Male" = "Male";
+"profile_Female" = "Female";
+
+// MARK: - Create Password
+
+"create_password_text_field_place_holder" = "تاكيد كلمة المرور";
+"create_password_text_field_password_not_match_error" = "كلمة المرور غير متطابقة";
+"password_reset" = "إعادة تعيين كلمة المرور";
+"password_changed" = "تم تغير كلمة المرور";
+// MARK: - MoreVC
+"more_privacyPolicy" = "سياسة الخصوصية";
+"more_carfleet_title" = "اسطول السيارات";
+"more_theebbranches_title" = "فروع ذيب";
+"more_ourservices_title" = "خدماتنا";
+"more_ourmembership_title" = "عضويتنا";
+"more_Ehsan_title" = "ذيب الخير";
+"more_Ehsan_Description" = "المساهمة الفاعلة في خدمة المجتمع ونموه";
+"more_Ehsan_readMore" = "اقرأ أكثر";
+"more_Ehsan_Donate" = "تبرع";
+"more_Ehsan_Other" = "آخر";
+"more_Ehsan_DonationDomain" = "مجال التبرع";
+"more_Ehsan_DonationAmount" = "مبلغ التبرع";
+"more_Ehsan_10Sr" = "10 ر.س";
+"more_Ehsan_50Sr" = "50 ر.س";
+"more_Ehsan_100Sr" = "100 ر.س";
+"more_Zero" = "لا يوجد";
+"more_helpandsupport_title" = "المساعدة والدعم";
+"more_aboutheeb_title" = "عن ذيب";
+"more_setting_title" = "الاعدادت";
+"more_title" = "المزيد";
+"more_accedintServiceTitle" = "خدمة مساعدة الحوادث";
+"more_accedintServiceContent" = "تدعم شركة ذيب لتاجير السيارات عملائها من وقت استلامهم للسيارة من فروع الشركة حتى تسليمها بعد انتهاء فترة التأجير. في حال وقوع حوادث لا قدر الله تعمل الشركة من خلال فريق متخصص للمتابعة مع الجهات المختصة لإعفاء العميل من القيام بإجراءات معينة. وتدعو الشركة عملائها للتواصل الفوري مع خدمة العملاء فور وقوع الحادث للتدخل السريع والمساهمة في استكمال الإجراءات العادية في مثل هذه الحالة.";
+"more_businessSectorTitle" = "قطاع الاعمال";
+"more_businessSectorContent" = "تقدم الشركة لجميع الجهات الحكومية وشركات القطاع الخاص مجموعة واسعة من الحلول والخدمات اللوجستية من خلال عقود قصيرة وطويلة الأجل ، نلبي احتياجات كل عميل حسب نوع متطلباته باحترافية وبكفاءة عالية.";
+"more_service_car_sales_title" = "مبيعات السيارات/المركبات";
+"more_service_car_sales_content" = "أدت العناية المستمرة من شركة ذيب لتأجير السيارات لسياراتها إلى تمتع المركبات بعمرها ومتانتها وجاهزيتها. وقد أدى ذلك إلى زيادة الطلب على شراء المركبات المستبعدة من الخدمة لغرض تحديث أسطول التأجير. هذه السيارات معروضة للبيع في وكالة ذيب للسيارات التي تقدم سياراتها التي يبلغ عمرها سنتين وأقل من عامين مستعملة بعناية للبيع";
+"more_service_cross_border_title" = "خدمة عبر الحدود";
+"more_service_cross_border_content" = "شركة ذيب لتأجير السيارات تثق بشدة في عملائها. وقد مكنها ذلك من إطلاق برامج تعزز شراكتها مع عملائها. توضح الخدمة عبر الحدود مدى هذه الثقة. وتعد هذه من أهم الخدمات التي أطلقتها الشركة لعملائها الراغبين في السفر بسيارات الشركة إلى العديد من الدول خارج حدود المملكة. في غضون فترة زمنية قصيرة ، يتم الحصول على أمر السفر وإتمام إجراءات المرور بسهولة";
+"more_service_limo_title" = "خدمة الليموزين";
+"more_service_limo_content" = "خدمة الليموزين هي إحدى الخدمات التي تقدمها شركة ذيب لتأجير السيارات لعملائها ، من خلال سيارات متنوعة مثل السيارات العائلية والفاخرة ، مع سائقين مسؤولين وفعالين يتحدثون باللغتين العربية والإنجليزية. كما تتوافر خدمات الليموزين لعملاء الشركة وخاصة الدوائر الحكومية والشركات والوفود الزائرة والزوار والسياح.";
+"more_service_raha_title" = "خدمة راحه";
+"more_service_raha_content" = "خدمات الراحة - سيارات لكبار السن وذوي الاحتياجات الخاصة يحتاج كبار السن و ذوي الاحتياجات الخاصة إلى سيارات مزودة بمعدات تساعدهم على التحرك بسهولة ويسر. عملت الشركة على توفير هذه السيارات إيمانا منها بأهمية خدمة جميع فئات العملاء وتلبية احتياجاتهم ورغباتهم المختلفة وتماشيا مع ذلك ، قدمت شركة ذيب لتأجير السيارات سيارات عائلية مجهزة بكراسي متحركة لمساعدة العملاء على التنقل بسهولة ، مجانا. شركة ذيب لتأجير السيارات هي أول شركة تأجير سيارات تقدم هذه الخدمة في المملكة.";
+"more_service_rent_car_title" = "استئجر سياره/مركبه";
+"more_service_rent_car_content" = "تولي الشركة اعتبارًا دقيقًا لعملائها سواء كانوا أفراداً أو قطاعات لأنهم يمثلون رقمًا مهمًا فيما يتعلق بمبيعات الشركة في جميع مناطق المملكة. وتماشيًا مع ذلك ، تسعى الشركة جاهدة للحفاظ على قاعدة عملائها المتزايدة سنويًا من خلال أسعار وعروض جيدة تناسب الأفراد والجهات الحكومية والخاصة ، وكذلك من خلال تقديم خدمات الدعم. تتعامل الشركة أيضًا مع عملائها بسلاسة ومرونة كبيرة ، مما يعزز الثقة المتبادلة ، مما جعل الشركة تتمتع بعدد كبير من العملاء الدائمين بسجل حافل من العملاء الدائمين الذين يحظون بتقدير كبير من قبل الشركة ويقفون كمصدر فخر لها.";
+"more_service_one_destination_title" = "خدمة الوجهه الواحده";
+"more_service_one_destination_content" = "خدمة وجهة واحدة - السفر بين مناطق المملكة حرصاً على راحة عملائها ، ولتقديم خدمات تسهل تنقلهم ، ولتقليل الوقت والجهد ، خدمة وجهة واحدة تتيح إمكانية السفر بالسيارة من مدينة إلى مدينة أخرى وإمكانية عدم إعادتها لنفس الفرع بالمدينة الأولى من خلال خدمة إعادة الشحن منخفضة التكلفة.";
+"more_BranchDays" = "من السبت إلى الخميس";
+"more_BranchTime" = "(8:00 ص حتى 10:00 م)";
+"more_BranchFriday" = "الجمعة ";
+"more_GetDirections" = "اتجه الى الموقع";
+// MARK: - Help and Support
+
+"help_support_whatsup" = "واتساب";
+"help_support_call_us" = "اتصل بنا";
+
+"clear_all_filters_btn_title"  = "ازالة جميع التصنيفات";
+// MARK: - Bills
+"please_fill_data" = "من فضلك ادخل موقع ووقت الاستلام والتسليم!";
+"bills_paid_invoice" = "مدفوع";
+"bills_un_paid_invoice" = "غير مدفوع";
+"bills_screen_title" = "الفواتير";
+"car_found_result" = "سيارة موجودة";
+
+//MARK: - MemberShip
+"Note: " = "ملاحظة: ";
+"memberShip_NumOfPoints" = "عدد النقاط";
+"memberShip_Benfits" = "المزايا";
+"memberShip_Requirements" = "متطلبات";
+"memberShipVc_Alfursan" = "الفرسان";
+"memberShipVc_Theeb_Points" = "نقاط ذيب ";
+"memberShipVc_History_Theep" = "تاريخ تحويلات الفرسان";
+"memberShipVc_Transfer_Theep" = " تحويل نقاط ذيب للفرسان";
+"memberShipVc_Transfeer_Point_Btn" = "تحويل نقاط";
+"memberShipVc_Alfursan_upgrade" = "ترقية";
+"alforsan_Points" = "الرجاء إدخال رقم صحيح للنقاط بين %d و ";
+"alforsan_EnterID" = "الرجاء ادخال رقم عضوية الفرسان الخاص بك";
+"alforsanVC_enoughPoints" = "ليس لديك ما يكفي من النقاط";
+"alforsan_yourBalance" = "رصيدك هو ";
+"alforsan_pointsWorth" = " نقطة ";
+"alforsan_transfeerPoints" = "تحويل نقاط ذيب الى اميال فرسان";
+"alforsan_NumOfPoints" = "عدد النقاط التي تريد تحويلها";
+"alforsanVC_Alfursan_ID" = "هوية الفرسان";
+"alforsanVC_AreYouSure" = "هل أنت متأكد من تحويل نقاط ذيب إلى اميال فرسان؟";
+"alforsanVC_conirmTransform" = "تأكيد التحويل";
+"alforsanVC_cancel" = "الغاء";
+"alforsanVC_Confirm" = "تأكيد";
+"memberDetailsVC_silver" = "فضية";
+"memberDetailsVC_upgrade" = "ترقية";
+"memberDetails_learnMore" = "اعرف المزيد";
+"memberDetailsVC_subscribe" = "إشترك";
+"memberDetailsVC_processing" = "طلب عضويتك قيد المعالجة";
+"memberDetailsVC_bronz" = "برونزية";
+"memberDetailsVC_Gold" = "ذهبية";
+"memberDetailsVC_ata" = "عطاء";
+"memberDetailsVC_diamond" = "ماسية";
+"memberDetailsVC_automatically" = "تُمنح تلقائيًا لجميع العملاء بعد إقفال العقد الأول";
+"memberDetailsVC_BenefitsRentDiscount" = "خصم على قيمة الايجار";
+"memberDetailsVC_oneDirectionDiscount" = "خصم تسليم السيارة بين المدن";
+"memberDetailsVC_kmFree" = " كيلو مجاني";
+"memberDetailsVC_extra3Hours" = "3 ساعات اضافية لوقت إعادة المركبة";
+"memberDetailsVC_extra2Hours" = "2 ساعة اضافية لوقت إعادة المركبة";
+"memberDetailsVC_extra5Hours" = "5 ساعات اضافية لوقت إعادة المركبة";
+"memberDetailsVC_gulfFees" = " ريال قيمة التفويض لدول مجلس التعاون الخليجي";
+"memberDetailsVC_arabicFees" = "ريال قيمة التفويض للدول العربية";
+"memberDetailsVC_gulfFeesFree" = "التفويض الدولي مجاناً إلى دول مجلس التعاون الخليجي";
+"memberDetailsVC_arabicFeesFree" = "التفويض الدولي مجاناً إلى الدول العربية";
+"memberDetailsVC_earn05Point" = "كسب 0.5 نقطة ذيب لكل 100 ريال سعودي من قيمة العقد المدفوع بالكامل";
+"memberDetailsVC_earn1Point" = "كسب 1 نقطة ذيب لكل 100 ريال سعودي من قيمة العقد المدفوع بالكامل";
+"memberDetailsVC_payWithTheeb" = "إمكانية الدفع بنقاط ذيب";
+"memberDetailsVC_payWithQateef" = "إمكانية الدفع بنقاط قطاف";
+"memberDetailsVC_payWithAlfursan" = "تحويل نقاط ذيب إلى فرسان";
+"memberDetails_AlfursanPoints" = "نقاط فرسان";
+"memberDetailsVC_bronzReqContract" = "عند إقفال العقد الأول بدون مديونية وليس له عضوية";
+"memberDetailsVC_bronzReqAutomatic" = "تصدر تلقائياً بعد إغلاق العقد الاول مع استيفاء الشروط والاحكام";
+"memberDetailsVC_SilvarReqContract" = "عند وصول رصيد ايجاراتك للعقود المغلقة المدفوعة بالكامل 5,000 ريال سعودي حسب الشروط والاحكام";
+"memberDetailsVC_GoldenReqContract" = "عند وصول رصيد ايجاراتك للعقود المغلقة المدفوعة بالكامل 20,000 ريال سعودي حسب الشروط والاحكام";
+"memberDetailsVC_diamondReqContract" = "عند وصول رصيد ايجاراتك للعقود المغلقة المدفوعة بالكامل 60,000 ريال سعودي حسب الشروط والاحكام";
+"memberDetailsVC_ataaReqContract" = "مخصصة للذوي الاحتياجات الخاصة مع استيفاء الشروط والاحكام";
+
+"Your points balance:" = "رصيد نقاطك:";
+
+//MARK: - Setting
+"setting_language" = "اللغه";
+"setting_faceId" = "التحقق ببصمة الوجه";
+"setting_hourSystem" = "Hour Time System";
+"setting_mode" = "Mode";
+"On" = "نعم";
+"Off" = "لا";
+"setting_Notification" = "Notification's Setting";
+"setting_title" = "الاعدادات";
+
+//MARK: - Checkout
+"checkOutVC_date" =  "تاريخ الميلاد";
+"checkOutVC_email" = "البريد الالكتروني";
+"checkOutVC_name" = "الاسم بالكامل";
+"checkOutVC_phone" = "الجوال";
+"checkOutVC_insurance" = "التأمين";
+"checkOutVC_addOns" = "الاضافات";
+"checkOutVC_freeKilos" = "كيلومترات مجانيه للاستخدام";
+"checkOutVC_canCancel" = "يمكنك الغاء الحجز في اي وقت قبل تاكيده من ذيب";
+"checkOutVC_commitInfo" = "أتعهد بأن كل المعلومات المدخلة صحيحة، وبقبول هذا فأنا أوافق على ";
+"checkOutVC_TermsAndCond" = " الشروط والاحكام الخاصة بذيب";
+"checkOutVC_bookow" = "احجز الان";
+"checkOutVc_compact" = "مدمجة";
+"checkOut_extraFeesWillApplied" = "سيتم تطبيق تكاليف اضافيه في حال التسليم خارج المدينة";
+"myRental_luxury" = "رفاهية";
+"checkOutVC_Day" = "يوم";
+"checkOut_blackList" = "عذرا لا يمكن انشاء الحجز بسبب الايقاف المؤقت ولمزيد من المعلومات يرجى التواصل مع خدمة العملاء";
+"checkOut_extraHours" = "%@ ساعات اضافيه مسموحه بناء على عضويتك";
+"renalhistory_from_label" = "من";
+"create_password_hint_label" = "إنشاء كلمة مرور";
+"renalhistory_to_label" = "الي";
+"checkOut_default" = "الكيلو المسموح";
+"checkOut_goldenMember" = "العضوية الذهبية";
+"checkOut_silverMember" = "العضوية الفضية";
+"checkOut_diamondMember" = "العضوية الماسية";
+"checkOut_greenMember" = "العضوية عطاء";
+"checkOut_bronzMember" = "العضوية البرونزية";
+"checkOut_keepMyBooking" = "لا، أبق الحجز";
+"checkOut_cancelMyBooking" = "نعم,ألغ الحجز";
+"checkOut_cancelFees" = "سيتم تطبيق رسوم الإلغاء إن وجدت";
+"checkOut_copiedToClip" = "نسخ إلى الحافظة";
+"successScreen_paymentSuccess" = "تم الدفع بنجاح";
+"successScreen_confrimAfterOneHour" = "سيتم تأكيد حجزك في غضون ساعة واحدة";
+"successScreen_backToDetails" = "رجوع إلى التفاصيل";
+"datePicker_chooseDate" = "اختر التاريخ";
+"date_Column" = "التاريخ";
+"points_column" = "النقاط";
+"miles_column" = "الأميال";
+"status_column" = "الحالة";
+"status_Approved" = "مقبول";
+"status_Declined" = "مرفوض";
+//MARK: - Fleet
+"Year" = "السنة";
+"fleet_theebFleet" = "اسطول السيارات";
+"fleet_WillSendyou" = "سيتم ارسال رابط الدفع بعد تاكيد الحجز";
+"fleet_confirmavaiabilty" = "التأكيد يتم على فئة السيارة أو ماشابهها حسب المتاح";
+"fleet_freeService" = "خدمات مجانيه";
+"fleet_chooseCar" = "اختر سيارة";
+"fleet_price" = "السعر";
+"fleet_brand" = "الماركة";
+"fleet_carType" = "نوع السيارة";
+"fleet_apply" = "تطبيق";
+"fleet_includeKm" = "تشمل 225 كم مجاناً";
+"fleet_mayIncrease" = "قابله للزياده بناء على نوع عضويتك(بعد تسجيل الدخول)
+";
+"fleet_roadside" = "المساعده على الطريق";
+"fleet_accedent" = "مساعدة الحوادث";
+//MARK: - Rental
+"rental_totalFree" = "مجموع مجاني";
+"rental_payBefore" = "عليك أن تدفع قبل الوقت حتى لا تلغي حجزك";
+"rental_freeKilosToUse" = "كيلومترات مجانيه للاستخدام";
+"rental_freeKilos" = "كيلومترات مجانيه";
+"rental_howToPay" = "اختر طريقة الدفع";
+"rental_paymentInfo" = "معلومات الدفع";
+"rental_rentaInfo" = "معلومات الإيجار";
+"rental_payNow" = "ادفع الآن";
+"rental_pay_Pay" = "ادفع";
+"rental_pay_Now" = "الآن";
+"rental_paymentMethod" = "طريقة الدفع";
+"rental_cancelPolcy" = "سياسة التأكيد والإلغاء";
+"rental_byConfirming" = "بتأكيد هذا الحجز ، أوافق على الشروط والأحكام وسياسة الخصوصية";
+"rental_Booking" = "الحجز";
+"rental_BookingCancell" = "تم إلغاء الحجز بنجاح";
+"rental_all" = "الكل";
+"addtional_insurance_recommended_label" = "موصى به, خذها من أجل سلامتك";
+"standard_insurance" = "أساسي";
+"error_Occured_msg" = "حدث خطأ";
+"no_transaction_err" = "لا توجد بيانات المعاملات";
+"rental_invoice" = "غير مدفوعه";
+"rental_carRental" = "استئجار مركبه";
+"rental_vatValue" = "ضريبة القيمة المضافة";
+"rental_totalValue" = "المجموع";
+"renta_Delivery" = "رسوم الشحن";
+"rental_memberShipDeiscount" = "خصم العضويه";
+"rental_memberShipTitle" = "العضويه";
+"renta_extraFees" = "رسوم إضافية";
+"rental_BookingstatusCanceled" = "تم إلغاء الحجز";
+"rental_BookingstatusConfirmed" = "تم تأكيد الحجز";
+"rental_Bookingstatuswaiting" = "في انتظار التأكيد";
+"rental_caravAilable" = "السيارة المتوفرة في";
+"rental_carReturnOn" = "عودة السيارة في";
+"rental_carWithYou" = "السيارة معك في";
+"rental_carSchadulaed" = " من المقرر إرجاع السيارة في";
+"rental_youHaveCar" = "السيارة معك";
+"rental_viewDetails" = "عرض التفاصيل";
+"rental_carReturned" = "تم إرجاع السيارة";
+"rental_pointsAdded" = "سيتم إضافة 150 نقطة إلى نقاط ذيب";
+"rental_PayForFull" = "دفع كامل";
+"rental_payForFirst" = "ادفع عن اليوم الأول والباقي لاحقًا";
+"renta_ChildSeat" = "مقاعد سيارات للأطفال";
+"rental_pickUpOn" = "الاستلام الساعة";
+"rental_resturnOn" = "التسليم الساعة";
+"renta_areYouSure" = "هل أنت متأكد أنك تريد الإلغاء ؟";
+
+
+//MARK: - MapLocation
+"mapLocation_chooseLocation" = "اختر الموقع";
+"mapLocation_selectPickLocation" = "اختر موقع الإستلام";
+"mapLocation_selectTReturnLocation" = "اختر موقع التسليم";
+"mapLocation_pickUp" = "موقع الإستلام";
+"mapLocation_selectDates" = "تأكيد الموقع" ;
+"mapLocation_pickUpDate" = "تاريخ الاستلام";
+"mapLocation_returnDate" = "تاريخ التسليم";
+"mapLocation_pickUpTime" = "وقت الاستلام";
+"mapLocation_returnTime" = "وقت التسليم";
+"mapLocation_youCanReturn" = "يمكنك تسليم المركبه قبل الوقت المحدد";
+"mapLocation_selectPickTime" = "اختر وقت الاستلام";
+"mapLocation_selectReturnTime" = "اختر وقت التسليم";
+"mapLocation_pickUpAndReturnTime" = "وقت التسليم و الاستلام";
+"mapLocation_serechForCar" = "ابحث عن سيارة";
+"mapLocation_differentCity" = "عودة السيارة في فرع اخر";
+"mapLocation_pickShouldBe" = "يجب أن يكون وقت الاستلام بعد %d ساعات من الآن على الأقل بتوقيت السعودية.";
+//"mapLocation_ShouldBe" = "يجب أن يكون وقت الاستلام بعد 4 ساعات من الآن على الأقل.";
+"mapLocation_ShouldBe" = "يجب أن يكون وقت التسليم بعد %d ساعات من الآن على الأقل بتوقيت السعودية.";
+
+//"mapLocation_ReturnShouldBe" = "يجب أن يكون وقت التسليم بعد 4 ساعات من الآن على الأقل.";
+"mapLocation_ReturnShouldBe" = "يجب أن يكون وقت التسليم بعد %d ساعات من الآن على الأقل بتوقيت السعودية.";
+
+"mapLocation_opening" = "اوقات العمل من";
+"mapLocation_confirmDate" = "تأكيد التاريخ";
+"mapLocation_confirmTime" = "تأكيد الوقت";
+"mapLocation_workingHour" = "ساعات العمل:";
+"mapLocation_ReturnAnyWhere" = "أعد سيارتك إلى أي مكان تريده";
+"mapLocation_ReturnYourCars" = "سياراتك";
+"mapLocation_TrackYourBookink" = "هنا تتعقب حجزك في الوقت الفعلي";
+"mapLocation_Fax" = "فاكس";
+//MARK: - Date Picker
+
+"date_picker_done_title" = "اختيار الوقت";
+"date_picker_cancel_title" = "رجوع";
+
+//MARK: - Help & Support
+"help_suppot_nedd_help" = "كيف اخدمك؟" ;
+"help_support_contact_with_team"  = "تواصل مع فريق الدعم" ;
+
+
+//MARK: - Success Screen
+
+"success_screen_your_booking_created_succefully"  = "تم انشاء حجزك بنجاح";
+
+
+"date_picker_done_titlee" = "اختر التاريخ";
+"fleet_22km_free" = "٢٢٥ كم مجانا";
+"fleet_seats" = "مقاعد";
+"fleet_vat_not_included" = "لا يشمل ضريبة القيمة المضافة";
+"car_details_recommended_imsurance" = "موصى به";
+"fleet_vat_included" = " يشمل ضريبة القيمة المضافة";
+"fleet_DriverInfo" = "معلومات السائق";
+"rental_carDetails" = "تفاصيل السيارة";
+"cardetails_internal_authrization" = "تفويض داخلي";
+"car_detils_add_ons" = "الاضافات";
+//MARK: - About VC
+
+
+"about_content_for_about_theeb"  = "بدأت شركة ذيب لتأجير السيارات عام 1991 م ، بناء على الثقة والعمل الجاد ، بدءاً من أول فرع بحي الملز بمنطقة الرياض بأسطول يقارب 50 سيارة وامتدت لتستمر وتتوسع حتى وصلت فروع شركة ذيب - 52 فرعا موزعة على مناطق المملكة ، و 15 فرعا في المطارات الدولية والمحلية سيتم تدشينها وتصنيعها في إحدى الشركات الرائدة في مجال تأجير السيارات من خلال أسطول من المركبات يتجاوز 22 ألف مركبة ، يعمل على تشغيل أكثر من 84 نوعا مختلفا من السيارات. الخدمة وأسلوب الحياة الذي يمكن تقديمه لعملائنا ، لكننا دقيقون في العمل واهتمامنا بخدمة عملائنا المستأجرين لن يضمنه تطلعاتهم بأسطول متنوع من السيارات التي يتم تجديدها بشكل دوري ويتم الاعتناء بها ودعمها على مدار الساعة.";
+
+
+
+"about_title" = "خدمة المساعدة في الحوادث";
+
+
+//MARK: - Our Services
+
+"ourservices_accident_assitance_services" = "خدمة مساعدة الحوادث";
+"ourservices_bussiness_sector" = "قطاع الاعمال";
+"ourservices_car_sales"  = "مبيعات السيارات";
+"ourservices_cross_border_service" = "خدمة عبر الحدود";
+"ourservices_limo_service" = "خدمة الليموزين" ;
+"ourservice_onedestination_service" = "خدمة الوجهه الواحده";
+"ourservice_raha_service" = "خدمة راحه";
+"ourservice_rent_car" = "استأجر سياره";
+"offers_title_label" = "العروض";
+"our_service_theeb_services" = "خدمات ذيب";
+"fleet_insurance"  = "تامين";
+"payment_payment_detailـchoose_option" = "اختر طريقة الدفع";
+"car_details_price_hint" = "السعر لا يشمل ضريبة القيمة المضافة ، التأمين و الإضافات";
+"Pay the full amount for %@ days" = "ادفع كامل المبلغ لمدة %@ أيام";
+"Pay the full amount for " = " لمدة %@ أيام";
+"  %@ SAR" = "  %@ ر.س";
+"Pay for only one day" = "ادفع يوم واحد فقط";
+"paymeny_vat" = "(شامل القيمة المضافة)";
+"payment_more_than_current" = "يجب أن يكون المبلغ المطلوب دفعه أقل من القيمة الإجمالية";
+"payment_payment_details" = "الدفع" ;
+"payment_total" = "المبلغ";
+"payment_pay_with_card"  = "ادفع بالبطاقة";
+"payment_Currenttotal" = "المجموع الحالي";
+"payment_payFullAmount" = "دفع كامل المبلغ";
+"payment_or_label" = "او";
+"payment_creditcard" = "بطاقة الائتمان";
+"payment_HowMuch" = "كم تريد أن تدفع الآن ؟";
+"payment_payPartialy" = "ادفع جزئياً";
+"payment_applePay" = "ابل الدفع";
+"payment_laterPay" = "الدفع لاحقًا";
+"payment_ThankYou" = "شكرا وسيتم التبرع بجزء من عقدك عند الدفع بالكامل للمساهمة في كفالة يتيم";
+"payment_Declined" = "عزيزي العميل لقد تم رفض عملية الدفع الرجاء التواصل مع البنك";
+"per_month_label" = "للشهر ";
+"per_day_label" = "لليوم ";
+"bills_all_fine_label" = "كل شي تمام";
+"car_detials_select_car" = "اختر السيارة";
+"bills_fine_hint_label" = "لا توجد فواتير ";
+"sar" = " ر.س ";
+"car_details_title" = "تفاصيل المركبة";
+"faceid_enble_btn" = "تفعيل";
+"faceid_skip_btn" = "تجاهل";
+"faceid_skip_title" = "تمكين التحقق";
+"faceid_skip_hint" = "تمكين التحقق للوصول السريع إلى حسابك ، في المرة القادمة ، وللحصول على مزيد من الأمان.";
+
+"car_details_seats" = "مقاعد ";
+"car_details_doors"  = " ابواب  ";
+"car_details_bags" = "  حقائب ";
+"car_details_gps_not_avaliable" = "غير متاح GPS";
+"car_details_gps_avaliable" = "GPS متاح";
+
+"checkout_upgrade_btn_title" = "ترقية";
+"checkout_pickup_on" = "تسليم في";
+"checkout_Return_on" = "استلام في";
+"checkout_vc_title" = "مراجعة بيانات الحجز";
+"checkout_clear_filter" = "إزالة التصنيف";
+"checkout_brand_filter_title" = "الشركة المصنعة";
+"checkout_cartype_filter_title" = "نوع المركبة";
+"checkout_price_filter_title" = "السعر";
+"checkout_apply_btn_title" = "تطبيق";
+"checkout_at" = "في" ;
+"chekout_plus_more" = "+٣ اخري";
+"chekout_total_free" =  "مجموع كيلومتر المجانية";
+"checkout_editbtn_title" = "تعديل";
+"car_details_remove_btn" = "ازالة";
+"fleet_from_zero_to_90" = "من ٠ الي ٩٠ ريال";
+"myrental_no_bookings_empty" = "لا توجد سيارات محجوزة";
+"km_hint" = "كم";
+"min_hint" = "دقيقة";
+"myrental_no_bboking_hint_label" = "عندما تحجز سيارة ستجد التفاصيل هنا";
+"fleet_from_91_to_200" = "من ٩١ الي ٢٠٠ ريال";
+"fleet_more_than_200" = "اكثر من ٢٠٠ ريال";
+
+
+"fleet_from_zero_to_250" = "من ٠ إلى ٢٥٠ ريال";
+"fleet_from_251_to_450" =  "من ٢٥١ إلى ٤٥٠ ريال";
+"fleet_from_451_to_700" =  "من ٤٥١ إلى ٧٠٠ ريال";
+"fleet_from_701_to_1000" =  "من ٧٠١ إلى ١٠٠٠ ريال";
+"fleet_from_1001_to_2000" =  "من ١٠٠١ إلى ٢٠٠٠ ريال";
+"fleet_from_2000_to_more" =  "اكثر من ٢٠٠٠ ريال";
+
+"fleet_bookingNumber" = "رقم الحجز";
+"fleet_contractNumber" = "رقم العقد";
+"suecess_goto_details" = "اذهب الي التفاصيل";
+"success_booking_number_is" = "رقم حجزك هو";
+"login_with_absher_btn_title" = "تسجيل دخول ب";
+"guest_login" = "انضم إلينا للحجز بشكل أسرع";
+"alert_success" = "عملية ناجحة";
+"alert_language" = "هل أنت متأكد أنك تريد تبديل اللغة؟";
+"force_update_title" = "النسخة الجديدة من التطبيق جاهزة!";
+"force_update_message" = "يجب تحديث التطبيق حتى تتمكن من الاستمرار";
+"normal_update_title" = "النسخة الجديدة من التطبيق جاهزة!";
+"normal_update_message" = "الرجاء تحديث التطبيق للاستمتاع بأحدث الميزات والتحسينات";
+"not_now" = "ليس الآن";
+"exit_app" = "إغلاق التطبيق";
+"update" = "تحديث";
+"language_Yes" = "نعم";
+"language_No" = "لا";
+"termsAndCondidtions_Arabic" = "لا نقدّمُ من جهتنا كما لا يقدّم أيّ طرف ثالث أيّ ضمانة بدقةِ وتماميّة أو ملاءمة المعلومات والموادّ المذكورة في هذا الموقع الإلكترونيّ لأيِّ غرض معيّن. إنكّم تقرّون بأنّ هذه المعلومات أو الموادّ قد تتضمّن أخطاءً أو مغالطاتٍ، ونحن نرفعُ بدورنا مسؤوليّتنا صراحة عن أيِّ مغالطات أو أخطاء واردة على هذا الموقع الإلكترونيّ إلى الحدود المطلقة التي يسمحُ بها القانون.
+
+يقعُ استخدامكم لأيِّ معلومات أو مواد واردة على هذا الموقع الإلكترونيّ على مسؤوليّتكم الخاصّة، ونحن لا نتحمّل أيّ مسؤوليّة عن المعلومات والمواد المذكورة. تكمنُ مسؤوليّتكم الخاصّة في التأكّدِ من أنّ أيّ منتجاتٍ أو خدمات أو معلومات متوفرة على هذا الموقع الإلكترونيّ تستوفي متطلبّاتكم الخاصّة.
+
+يتضمّن هذا الموقع الإلكترونيّ مواداً مملوكة من قبلنا ومرخّصة لنا. وتضمّ هذه الموادّ، على سبيل المثال لا الحصر، التصاميم والرسوم والنماذج المطبعية. ويُحظّرُ إعادة نسخ ونشر هذه الموادّ باستثناء بما يتوافق مع إخطار حقوق النشر التي تشكّل جزءاً من هذه البنود والشروط.
+
+يتمّ الإقرار بكافة العلامات التجاريّة الواردة على هذا الموقع الإلكتروني بحيث لا تكون ملكاً للمشغّل أو تكون مرخّصة له.
+
+ينشأ عن الاستخدام غير المرخّص له لهذا الموقع الإلكتروني مطالبة بالتعويض عن الأضرار ويعد فعلاً إجراميّاً.
+
+يمكن أن يضمّ هذا الموقع الإلكترونيّ، من حين إلى آخر، روابط متعلّقة بمواقع إلكترونيّة أخرى. تتوفرُ هذه الروابط لتأمين معلوماتٍ إضافيّة لكم، ولا تدلّ بالتالي على أنّنا نصادق على مضمون المواقع الأخرى. إنّنا لا نتحمّل أيّ مسؤوليّة عن مضمون المواقع الإلكترونيّة الأخرى المتصلة بالروابط.
+
+لا يحقّ لكم إنشاء رابط لهذا الموقع الإلكترونيّ من أيّ موقع إلكتروني آخر أو مستند آخر من دون الحصول على موافقة شركة ذيب لتأجير السيارات الخطيّة المسبقة.
+
+يخضعُ استخدامكم لهذا الموقع الإلكترونيّ وأيّ نزاع ينشأ عن هذا الاستخدام لقوانين المملكة العربيّة السعوديّة";
+
+// missing
+
+"Amount can't be 0" = "المبلغ لا يمكن أن يكون 0";
+"miles" = "ميلاً";
+
+"new_privacy_policy" = "سياسة الإستخدام والخصوصية";
+"new_privacy_policy_text" = "▪︎ البيانات المطلوبة لإجراء العمليات التجارية هي الاسم، تاريخ الميلاد، رقم الترخيص، تاريخ انتهاء الصلاحية للوثائق وما إلى ذلك يتم اخذها من عملاء الافراد.\n
+▪︎ يتم استخدام البيانات التي يتم جمعها من الأفراد فقط لتجنب إدخال البيانات عدة مرات ولتقديم خدمات أفضل للعميل.\n
+▪︎ يتم الاحتفاظ بالبيانات الشخصية التي يتم جمعها من الأفراد تحت حماية صارمة.\n
+▪︎ لا يتم مشاركة أي جزء من البيانات أو الوصول إليه من قبل أي كيانات خارجية باستثناء الجهات التنظيمية المعنية المتعلقة بالأعمال / صناعة الخدمات.\n
+▪︎ لا يتم جمع أو تخزين أي بيانات مالية من قبل شركة ذيب لتأجير السيارات.\n
+▪︎ يتم تخزين بطاقة الائتمان / الخصم التي لم يتم أخذها كمراجع في شكل مغلق.\n
+▪︎ يتم عرض جميع البيانات التي تم جمعها من الأفراد ضمن ملف التعريف للمستخدمين المسجلين.";

@@ -1,0 +1,43 @@
+{
+  "images" : [
+    {
+      "filename" : "chevron-left.pdf",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "filename" : "chevron-right.pdf",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "locale" : "ar"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "right-to-left",
+      "locale" : "ar"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "locale" : "en"
+    },
+    {
+      "idiom" : "universal",
+      "language-direction" : "right-to-left",
+      "locale" : "en"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

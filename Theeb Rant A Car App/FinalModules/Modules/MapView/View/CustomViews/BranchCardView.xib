@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahij_TheSansArabic-SemiBold.ttf">
+            <string>BahijTheSansArabic-SemiBold</string>
+        </array>
+        <array key="Bahij_TheSansArabic-SemiLight.ttf">
+            <string>BahijTheSansArabic-SemiLight</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BranchCardView" customModule="Theeb_Rent_A_Car_App" customModuleProvider="target">
+            <connections>
+                <outlet property="btnGetDirections" destination="1oc-oA-DDQ" id="XyK-Gn-Hyd"/>
+                <outlet property="btnMapLocation" destination="ua1-dA-uea" id="ojE-vc-eW0"/>
+                <outlet property="lblBranchTiltle" destination="7QE-xJ-DVv" id="PWI-5k-O6e"/>
+                <outlet property="lblDistance" destination="WOc-u7-1mr" id="V1H-QX-vsr"/>
+                <outlet property="lblFax" destination="Orf-yR-XQN" id="EV8-hD-obh"/>
+                <outlet property="lblFriday" destination="8ub-q6-CGr" id="JRa-IG-iv5"/>
+                <outlet property="lblFromDays" destination="rt3-Sx-gkP" id="cbq-Fy-Scj"/>
+                <outlet property="lblMobile" destination="fwF-09-ufj" id="gs7-28-bFI"/>
+                <outlet property="lblPhone" destination="EEl-dE-rff" id="9Sk-pW-rOd"/>
+                <outlet property="lblStaticFax" destination="ZX7-GC-jBX" id="heH-WW-eN2"/>
+                <outlet property="lblStaticPhone" destination="dIp-aW-id9" id="Jwb-u6-FRt"/>
+                <outlet property="lblStaticWorkingHour" destination="x2Z-ws-sJu" id="u2f-N0-DuL"/>
+                <outlet property="lblTime" destination="MeF-Bd-5dR" id="RB1-r3-olf"/>
+                <outlet property="lblTimeAway" destination="cFW-9Y-00y" id="wH3-O1-Qcm"/>
+                <outlet property="stackViewMobile" destination="AH6-aS-R7S" id="m7H-er-CeJ"/>
+                <outlet property="stackViewPhone" destination="xeB-tR-vqk" id="fj1-PX-OBt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOR-7G-bvZ">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" text="Theeb Alkhobar Branch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QE-xJ-DVv">
+                            <rect key="frame" x="24" y="16" width="366" height="31.5"/>
+                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="20"/>
+                            <color key="textColor" name="TheebPrimaryColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AkL-Bg-SC0">
+                            <rect key="frame" x="24" y="111" width="207" height="83.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Phone:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIp-aW-id9">
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="25.5"/>
+                                    <color key="tintColor" name="Dark Gray Text"/>
+                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="16"/>
+                                    <color key="textColor" name="TheebDarkGray"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GNT-bS-HwR">
+                                    <rect key="frame" x="0.0" y="33.5" width="207" height="50"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xeB-tR-vqk">
+                                            <rect key="frame" x="0.0" y="0.0" width="207" height="20"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phoneLoc" translatesAutoresizingMaskIntoConstraints="NO" id="IBn-mg-wc9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                    <color key="tintColor" name="Dark Gray Text"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="C5S-0e-nYN"/>
+                                                        <constraint firstAttribute="height" constant="20" id="gkb-0T-O9W"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" text="11245745544" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEl-dE-rff">
+                                                    <rect key="frame" x="28" y="0.0" width="179" height="20"/>
+                                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                                    <color key="textColor" name="Dark Gray Text"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AH6-aS-R7S">
+                                            <rect key="frame" x="0.0" y="30" width="207" height="20"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phoneLoc" translatesAutoresizingMaskIntoConstraints="NO" id="QSB-hm-IEq">
+                                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                    <color key="tintColor" name="TheebPrimaryColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="1Bk-Lj-d3S"/>
+                                                        <constraint firstAttribute="height" constant="20" id="e3V-7I-rVU"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" text="1124574" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwF-09-ufj">
+                                                    <rect key="frame" x="28" y="0.0" width="179" height="20"/>
+                                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                                    <color key="textColor" name="TheebPrimaryColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FFX-7E-qgU">
+                            <rect key="frame" x="253.5" y="114" width="136.5" height="77.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Fax:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX7-GC-jBX">
+                                    <rect key="frame" x="0.0" y="0.0" width="136.5" height="25.5"/>
+                                    <color key="tintColor" name="Dark Gray Text"/>
+                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="16"/>
+                                    <color key="textColor" name="TheebDarkGray"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="J0s-YV-rJP">
+                                    <rect key="frame" x="0.0" y="33.5" width="136.5" height="44"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0zt-Ng-rRC">
+                                            <rect key="frame" x="0.0" y="0.0" width="136.5" height="20"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fax" translatesAutoresizingMaskIntoConstraints="NO" id="BG4-cx-z5U">
+                                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="1R1-7W-RDZ"/>
+                                                        <constraint firstAttribute="width" constant="20" id="Lmj-WN-k2A"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="1124777574" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orf-yR-XQN">
+                                                    <rect key="frame" x="28" y="0.0" width="108.5" height="20"/>
+                                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                                    <color key="textColor" name="Dark Gray Text"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kjK-Bg-crZ">
+                                            <rect key="frame" x="0.0" y="24" width="136.5" height="20"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTa-is-oqB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="136.5" height="20"/>
+                                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                                    <color key="textColor" name="Dark Gray Text"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Working hours:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2Z-ws-sJu">
+                            <rect key="frame" x="24" y="218.5" width="106" height="25.5"/>
+                            <color key="tintColor" name="Dark Gray Text"/>
+                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="16"/>
+                            <color key="textColor" name="TheebDarkGray"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeLoc" translatesAutoresizingMaskIntoConstraints="NO" id="6yJ-aw-u6v">
+                            <rect key="frame" x="24" y="260" width="21.5" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="6yJ-aw-u6v" secondAttribute="height" multiplier="8:9" id="AWR-xo-CpN"/>
+                            </constraints>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TcY-LM-Ngl">
+                            <rect key="frame" x="69.5" y="260" width="320.5" height="80"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="From Saturday to Thursday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rt3-Sx-gkP">
+                                    <rect key="frame" x="0.0" y="0.0" width="320.5" height="24"/>
+                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="15"/>
+                                    <color key="textColor" name="Dark Gray Text"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="(8:00Am untill 10:00Pm)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeF-Bd-5dR">
+                                    <rect key="frame" x="0.0" y="28" width="320.5" height="24"/>
+                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="15"/>
+                                    <color key="textColor" name="Dark Gray Text"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Friday (01:00 PM Until 10:00 PM)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ub-q6-CGr">
+                                    <rect key="frame" x="0.0" y="56" width="320.5" height="24"/>
+                                    <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="15"/>
+                                    <color key="textColor" name="Dark Gray Text"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nXe-X8-Gy7">
+                            <rect key="frame" x="48" y="364" width="318" height="22.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tjw-lQ-6Ux">
+                                    <rect key="frame" x="0.0" y="0.0" width="157" height="22.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pindistancefill" translatesAutoresizingMaskIntoConstraints="NO" id="ByM-8b-7BK">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="22.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="ByM-8b-7BK" secondAttribute="height" multiplier="8:9" id="OTW-fC-kNY"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="3.2 Km" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOc-u7-1mr">
+                                            <rect key="frame" x="28" y="0.0" width="129" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                            <color key="textColor" name="Dark Gray Text"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ByM-8b-7BK" firstAttribute="height" secondItem="tjw-lQ-6Ux" secondAttribute="height" id="sEg-Kz-BSv"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iEg-h8-JgJ">
+                                    <rect key="frame" x="161" y="0.0" width="157" height="22.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeFillLoc" translatesAutoresizingMaskIntoConstraints="NO" id="oBK-IS-llt">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="22.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="oBK-IS-llt" secondAttribute="height" multiplier="8:9" id="5R8-4Y-qTg"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="8 mins away" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFW-9Y-00y">
+                                            <rect key="frame" x="28" y="0.0" width="129" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="BahijTheSansArabic-SemiLight" family="Bahij TheSansArabic" pointSize="14"/>
+                                            <color key="textColor" name="Dark Gray Text"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="oBK-IS-llt" firstAttribute="height" secondItem="iEg-h8-JgJ" secondAttribute="height" id="u4F-L0-RVM"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua1-dA-uea">
+                            <rect key="frame" x="24" y="59.5" width="29" height="39.5"/>
+                            <color key="tintColor" name="TheebPrimaryColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="getdirection" title=" "/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oc-oA-DDQ">
+                            <rect key="frame" x="53" y="59.5" width="126" height="39.5"/>
+                            <color key="tintColor" name="TheebPrimaryColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" Get Directions">
+                                <fontDescription key="titleFontDescription" name="BahijTheSansArabic-SemiBold" family="Bahij TheSansArabic" pointSize="16"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="6yJ-aw-u6v" firstAttribute="height" secondItem="eOR-7G-bvZ" secondAttribute="height" multiplier="0.0293399" id="72Y-of-0NO"/>
+                        <constraint firstItem="AkL-Bg-SC0" firstAttribute="width" secondItem="eOR-7G-bvZ" secondAttribute="width" multiplier="0.5" id="7E4-gX-CFv"/>
+                        <constraint firstItem="7QE-xJ-DVv" firstAttribute="top" secondItem="eOR-7G-bvZ" secondAttribute="top" constant="16" id="8GF-UI-BWp"/>
+                        <constraint firstItem="nXe-X8-Gy7" firstAttribute="top" secondItem="TcY-LM-Ngl" secondAttribute="bottom" constant="24" id="9JE-r0-APV"/>
+                        <constraint firstItem="6yJ-aw-u6v" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="24" id="9qH-fc-I8W"/>
+                        <constraint firstItem="ua1-dA-uea" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="24" id="AKD-zK-f6c"/>
+                        <constraint firstItem="6yJ-aw-u6v" firstAttribute="top" secondItem="x2Z-ws-sJu" secondAttribute="bottom" constant="16" id="Eo5-JY-n7Y"/>
+                        <constraint firstAttribute="trailing" secondItem="nXe-X8-Gy7" secondAttribute="trailing" constant="48" id="FJk-Z4-HHJ"/>
+                        <constraint firstAttribute="trailing" secondItem="TcY-LM-Ngl" secondAttribute="trailing" constant="24" id="I6C-mQ-coM"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nXe-X8-Gy7" secondAttribute="bottom" constant="16" id="OuR-De-7Kr"/>
+                        <constraint firstItem="x2Z-ws-sJu" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="24" id="PFh-z4-vV3"/>
+                        <constraint firstItem="7QE-xJ-DVv" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="24" id="Q1j-rF-m9h"/>
+                        <constraint firstItem="FFX-7E-qgU" firstAttribute="centerY" secondItem="AkL-Bg-SC0" secondAttribute="centerY" id="Rob-Tj-Tbu"/>
+                        <constraint firstItem="1oc-oA-DDQ" firstAttribute="height" secondItem="ua1-dA-uea" secondAttribute="height" id="WRy-i1-RRI"/>
+                        <constraint firstItem="ua1-dA-uea" firstAttribute="top" secondItem="7QE-xJ-DVv" secondAttribute="bottom" constant="12" id="Wdt-Jd-wU1"/>
+                        <constraint firstItem="nXe-X8-Gy7" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="48" id="WyX-0g-hSd"/>
+                        <constraint firstItem="TcY-LM-Ngl" firstAttribute="top" secondItem="x2Z-ws-sJu" secondAttribute="bottom" constant="16" id="YBb-nc-SGw"/>
+                        <constraint firstItem="FFX-7E-qgU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AkL-Bg-SC0" secondAttribute="trailing" constant="16" id="cST-cl-RRf"/>
+                        <constraint firstAttribute="trailing" secondItem="7QE-xJ-DVv" secondAttribute="trailing" constant="24" id="cka-OZ-dcc"/>
+                        <constraint firstItem="x2Z-ws-sJu" firstAttribute="top" secondItem="AkL-Bg-SC0" secondAttribute="bottom" constant="24" id="iIY-av-Xt8"/>
+                        <constraint firstItem="TcY-LM-Ngl" firstAttribute="leading" secondItem="6yJ-aw-u6v" secondAttribute="trailing" constant="24" id="kHa-FD-Z6Z"/>
+                        <constraint firstItem="AkL-Bg-SC0" firstAttribute="top" secondItem="ua1-dA-uea" secondAttribute="bottom" constant="12" id="kSc-UF-ffv"/>
+                        <constraint firstItem="1oc-oA-DDQ" firstAttribute="leading" secondItem="ua1-dA-uea" secondAttribute="trailing" id="kuI-Hn-kr4"/>
+                        <constraint firstItem="FFX-7E-qgU" firstAttribute="width" secondItem="eOR-7G-bvZ" secondAttribute="width" multiplier="0.33" id="lHt-Mm-PKT"/>
+                        <constraint firstAttribute="trailing" secondItem="FFX-7E-qgU" secondAttribute="trailing" constant="24" id="nUN-a8-9zX"/>
+                        <constraint firstItem="1oc-oA-DDQ" firstAttribute="centerY" secondItem="ua1-dA-uea" secondAttribute="centerY" id="pj9-jT-PEj"/>
+                        <constraint firstItem="ua1-dA-uea" firstAttribute="width" secondItem="eOR-7G-bvZ" secondAttribute="width" multiplier="0.07" id="tLm-yN-gaJ"/>
+                        <constraint firstItem="AkL-Bg-SC0" firstAttribute="leading" secondItem="eOR-7G-bvZ" secondAttribute="leading" constant="24" id="yFs-fd-5Ds"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="eOR-7G-bvZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5Ch-Ca-KdM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="eOR-7G-bvZ" secondAttribute="bottom" id="lnd-E1-GXD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eOR-7G-bvZ" secondAttribute="trailing" id="n0q-tK-oWY"/>
+                <constraint firstItem="eOR-7G-bvZ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="o3Z-xa-idO"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="45.535714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fax" width="17" height="17"/>
+        <image name="getdirection" width="15" height="15"/>
+        <image name="phoneLoc" width="16" height="16"/>
+        <image name="pindistancefill" width="16" height="16"/>
+        <image name="timeFillLoc" width="15" height="15"/>
+        <image name="timeLoc" width="16" height="16"/>
+        <namedColor name="Dark Gray Text">
+            <color red="0.19200000166893005" green="0.19200000166893005" blue="0.19200000166893005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TheebDarkGray">
+            <color red="0.26666666666666666" green="0.29019607843137257" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TheebPrimaryColor">
+            <color red="0.058823529411764705" green="0.41568627450980394" blue="0.64313725490196083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

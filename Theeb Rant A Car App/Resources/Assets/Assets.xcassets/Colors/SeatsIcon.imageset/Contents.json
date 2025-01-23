@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SeatsIcon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
